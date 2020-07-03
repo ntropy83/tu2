@@ -1,4 +1,4 @@
-![QMake Build](https://github.com/ntropy83/tu2/workflows/QMake%20Build/badge.svg)
+![QMake Build Matrix](https://github.com/ntropy83/tu2/workflows/QMake%20Build%20Matrix/badge.svg)
 [![Language Grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/vim/vim.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ntropy83/TUII/context:cpp)
 
 # TUII
