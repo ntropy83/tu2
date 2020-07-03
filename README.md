@@ -4,7 +4,7 @@
 # TUII
 PMS - Project Management System
 
-![MainWindow](https://github.com/enthalpie/TUII/blob/master/img/MainWindow.png)
+![MainWindow](https://github.com/ntropy83/tu2/blob/master/img/MainWindow.png)
 
 ## version 1.0.0
 - create and modify projects
