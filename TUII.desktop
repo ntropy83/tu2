@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Utility;TextEditor;
+Comment=Simple Project Management System
+Exec=/usr/share/TUII/Projektverwaltung %F
+GenericName=Project Management
+Icon=editor
+MimeType=
+Name=TUII - PMS
+StartupNotify=false
+Type=Application
