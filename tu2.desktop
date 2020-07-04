@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=tu2 - PMS
-Comment=Simple Project Management System
+Name=tu2 PMS
+GenericName=Project Management System
+Comment=Project Management System
 Exec=tu2 %F
-Icon=preferences-system-time
+Icon=default
 Terminal=false
 Type=Application
-NoDisplay=true
-StartupNotify=true
-Categories=Office;
-Keywords=PMS;
+StartupNotify=false
+Categories=
+MimeType=
