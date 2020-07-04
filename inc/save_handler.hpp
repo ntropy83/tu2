@@ -29,9 +29,10 @@ struct date_sort {
     static QString prjdir = "data/";
     static QString lib_index = "index.lib";
 #else
-    static QString maindir = "/usr/lib/tu2//Projekte/";
-    static QString prjdir = "/usr/lib/tu2/TUII/data/";
-    static QString lib_index = "/usr/lib/tu2/index.lib";
+    static QString home = QDir::homePath();
+    static QString maindir = home + "/.local/share/tu2/Projekte/";
+    static QString prjdir = home + "/.local/share/tu2/TUII/data/";
+    static QString lib_index = home + "/.local/share/tu2/index.lib";
 #endif
 
 // Zählt die Anzahl der Projekte und inkrementiert sie bei Neuanlage
