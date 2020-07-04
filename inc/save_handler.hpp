@@ -25,6 +25,7 @@ struct date_sort {
 // Speicherpfade definieren
 
 #ifdef _WIN32
+    static QString app_dir = "";
     static QString maindir = "Projekte/";
     static QString prjdir = "data/";
     static QString lib_index = "index.lib";
