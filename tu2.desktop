@@ -1,0 +1,8 @@
+[Desktop Entry]
+Categories=Office;
+Comment=Simple Project Management System
+Exec="tu2 %F"
+GenericName=Project Management System
+Name=tu2 - PMS
+StartupNotify=false
+Type=Application
