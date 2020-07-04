@@ -13,7 +13,6 @@ PMS - Project Management System
 - create a project evaluation
 
 # Planned features
-- MacOS support
 - English translation
 - Kanban functionality
 
