@@ -15,6 +15,8 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    if(app_dir != "") ui->label_linux->setEnabled(true);
+
     // Initiale Erstellung der Projekte.lib sowie Auslesen der DB
     // Initialisierung der tableView's
 
