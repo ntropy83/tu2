@@ -30,8 +30,9 @@ struct date_sort {
     static QString lib_index = "index.lib";
 #else
     static QString home = QDir::homePath();
+    static QString app_dir = home + "/.local/share/tu2";
     static QString maindir = home + "/.local/share/tu2/Projekte/";
-    static QString prjdir = home + "/.local/share/tu2/TUII/data/";
+    static QString prjdir = home + "/.local/share/tu2/data/";
     static QString lib_index = home + "/.local/share/tu2/index.lib";
 #endif
 
@@ -103,6 +104,7 @@ inline QStandardItemModel* readout(QString tab){
 
     if(!file.exists()){
         QDir _dir;
+        if(app_dir != "") _dir.mkdir(app_dir);
         _dir.mkdir(maindir);
         _dir.mkdir(prjdir);
 
