@@ -12,6 +12,11 @@ PMS - Project Management System
 - add milestones and project advancements
 - create a project evaluation
 
+# Planned features
+- MacOS support
+- English translation
+- Kanban functionality
+
 # Libraries and Dependencies
 Created with QtCreator 4.11 / Qt 5.14 (Gcc 9.2.0, 64bit)
 
@@ -20,7 +25,10 @@ Needs package:
 Ubuntu: qt5-default<br>
 Arch: qt5-base
 
-# Build instructions in Linux
+# Install
+Arch User Repo: https://aur.archlinux.org/packages/tu2
+
+# Build from scratch on Linux
 Clone the repo and cd into the new folder
 
 ```
