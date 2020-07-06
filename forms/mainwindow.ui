@@ -114,7 +114,7 @@
      <x>0</x>
      <y>0</y>
      <width>1311</width>
-     <height>24</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuDatei">
@@ -138,9 +138,17 @@
     </property>
     <addaction name="actionVersion"/>
    </widget>
+   <widget class="QMenu" name="menuLanguage">
+    <property name="title">
+     <string>Sprache</string>
+    </property>
+    <addaction name="actionDeutsch"/>
+    <addaction name="actionEnglisch"/>
+   </widget>
    <addaction name="menuDatei"/>
    <addaction name="menuAnleitung"/>
    <addaction name="menuInfo"/>
+   <addaction name="menuLanguage"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionProjekt_erstellen">
@@ -166,6 +174,16 @@
   <action name="actionHilfe">
    <property name="text">
     <string>Anleitung</string>
+   </property>
+  </action>
+  <action name="actionDeutsch">
+   <property name="text">
+    <string>Deutsch</string>
+   </property>
+  </action>
+  <action name="actionEnglisch">
+   <property name="text">
+    <string>Englisch</string>
    </property>
   </action>
  </widget>
