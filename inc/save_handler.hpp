@@ -88,7 +88,7 @@ inline QStringList edit_readout(QString index){
       qDebug() << "Keine Projekte gefunden...";
 
     QString line = file.readLine();
-    QStringList line_data=line.split(" /// ", QString::SkipEmptyParts);
+    QStringList line_data=line.split(" /// ", Qt::SkipEmptyParts, Qt::CaseInsensitive);
 
     file.close();
     return line_data;
@@ -143,7 +143,7 @@ inline QStandardItemModel* readout(QString tab){
            while (!file.atEnd()) {
 
               QString line =  file.readLine();
-              QStringList line_data=line.split(" /// ", QString::SkipEmptyParts);
+              QStringList line_data=line.split(" /// ", Qt::SkipEmptyParts, Qt::CaseInsensitive);
 
               if(line_data.at(6) == "01.01.2020"){ line_data[6] = "-"; }
 
@@ -236,7 +236,7 @@ inline QStandardItemModel* readout_mp(QString type){
          qDebug() << "Keine Projekte gefunden...";
 
       QString line = file.readLine();
-      QStringList line_data=line.split(" /// ", QString::SkipEmptyParts);
+      QStringList line_data=line.split(" /// ", Qt::SkipEmptyParts, Qt::CaseInsensitive);
       std::vector<date_sort> data_helpy(line_data.size());
 
       for (int j=0; j < line_data.size(); j=j+2){
@@ -294,7 +294,7 @@ inline QStringList edit_readout_mp(QString type){
          qDebug() << "Keine Projekte gefunden...";
 
       QString line = file.readLine();
-      QStringList line_data=line.split(" /// ", QString::SkipEmptyParts);
+      QStringList line_data=line.split(" /// ", Qt::SkipEmptyParts, Qt::CaseInsensitive);
       std::vector<date_sort> data_helpy(line_data.size());
 
       for (int j=0; j < line_data.size(); j=j+2){
@@ -322,7 +322,7 @@ inline QStringList edit_readout_mp(QString type){
 
       file.close();
     }
-    line_formatted = line_reordered.split(" /// ", QString::SkipEmptyParts);
+    line_formatted = line_reordered.split(" /// ", Qt::SkipEmptyParts, Qt::CaseInsensitive);
     return line_formatted;
 }
 
