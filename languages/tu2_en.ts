@@ -11,72 +11,72 @@
     <message>
         <location filename="../forms/mainwindow.ui" line="51"/>
         <source>Aktuelle Projekte</source>
-        <translation>current projects</translation>
+        <translation>Current Projects</translation>
     </message>
     <message>
         <location filename="../forms/mainwindow.ui" line="74"/>
         <source>Beendete Projekte</source>
-        <translation>finished projects</translation>
+        <translation>Finished Projects</translation>
     </message>
     <message>
         <location filename="../forms/mainwindow.ui" line="105"/>
         <source>Speicherpfad: $HOME/.local/share/tu2</source>
-        <translation>save path: $/HOME/.local/share/tu2</translation>
+        <translation>Save path: $/HOME/.local/share/tu2</translation>
     </message>
     <message>
         <location filename="../forms/mainwindow.ui" line="122"/>
         <source>Projektverwaltung</source>
-        <translation>project management</translation>
+        <translation>Project Management</translation>
     </message>
     <message>
         <location filename="../forms/mainwindow.ui" line="131"/>
         <source>Hilfe</source>
-        <translation>help</translation>
+        <translation>Help</translation>
     </message>
     <message>
         <location filename="../forms/mainwindow.ui" line="137"/>
         <source>Info</source>
-        <translation>info</translation>
+        <translation>Info</translation>
     </message>
     <message>
         <location filename="../forms/mainwindow.ui" line="143"/>
         <source>Sprache</source>
-        <translation>language</translation>
+        <translation>Language</translation>
     </message>
     <message>
         <location filename="../forms/mainwindow.ui" line="154"/>
         <source>Projekt erstellen</source>
-        <translation>create project</translation>
+        <translation>Create Project</translation>
     </message>
     <message>
         <location filename="../forms/mainwindow.ui" line="159"/>
         <source>Projekt editieren</source>
-        <translation>edit project</translation>
+        <translation>Edit Project</translation>
     </message>
     <message>
         <location filename="../forms/mainwindow.ui" line="164"/>
         <source>Beenden</source>
-        <translation>quit</translation>
+        <translation>Quit</translation>
     </message>
     <message>
         <location filename="../forms/mainwindow.ui" line="169"/>
         <source>Version</source>
-        <translation>version</translation>
+        <translation>Version</translation>
     </message>
     <message>
         <location filename="../forms/mainwindow.ui" line="174"/>
         <source>Anleitung</source>
-        <translation>manual</translation>
+        <translation>Manual</translation>
     </message>
     <message>
         <location filename="../forms/mainwindow.ui" line="179"/>
         <source>Deutsch</source>
-        <translation>german</translation>
+        <translation>German</translation>
     </message>
     <message>
         <location filename="../forms/mainwindow.ui" line="184"/>
         <source>Englisch</source>
-        <translation>english</translation>
+        <translation>English</translation>
     </message>
 </context>
 <context>
@@ -84,42 +84,42 @@
     <message>
         <location filename="../forms/projectdialog.ui" line="26"/>
         <source>Projekt erstellen</source>
-        <translation>create project</translation>
+        <translation>Create Project</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="43"/>
         <source>Projekt anlegen / editieren:</source>
-        <translation>create / edit project:</translation>
+        <translation>Create / Edit Project:</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="73"/>
         <source>Beschreibung</source>
-        <translation>description</translation>
+        <translation>Description</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="100"/>
         <source>Projektleitung</source>
-        <translation>project head</translation>
+        <translation>Project Head</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="118"/>
         <source>Projekttitel</source>
-        <translation>project title</translation>
+        <translation>Project Title</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="146"/>
         <source>Beginn</source>
-        <translation>start</translation>
+        <translation>Start</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="174"/>
         <source>Projektbeteiligte</source>
-        <translation>project participants</translation>
+        <translation>Project Participants</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="192"/>
         <source>Projektziele</source>
-        <translation>project goals</translation>
+        <translation>Project Goals</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="208"/>
@@ -140,12 +140,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/projectdialog.ui" line="230"/>
         <source>Rolle</source>
-        <translation>role</translation>
+        <translation>Role</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="268"/>
         <source>Kurzbeschreibung</source>
-        <translation>short description</translation>
+        <translation>Short Description</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="311"/>
@@ -155,7 +155,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../forms/projectdialog.ui" line="1181"/>
         <location filename="../forms/projectdialog.ui" line="1235"/>
         <source>dd.MM.yyyy</source>
-        <translation>MM.dd.yyyy</translation>
+        <translation>dd.MM.yyyy</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="330"/>
@@ -173,17 +173,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/projectdialog.ui" line="352"/>
         <source>Bemerkungen</source>
-        <translation>notes</translation>
+        <translation>Notes</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="358"/>
         <source>Status</source>
-        <translation>status</translation>
+        <translation>Status</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="370"/>
         <source>Projektzustand</source>
-        <translation>state of project</translation>
+        <translation>Project State</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="382"/>
@@ -203,7 +203,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/projectdialog.ui" line="425"/>
         <source>Bericht na. Sitzung</source>
-        <translation>report next meeting</translation>
+        <translation>Report next Meeting</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="437"/>
@@ -223,12 +223,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/projectdialog.ui" line="511"/>
         <source>Meilensteine</source>
-        <translation>milestones</translation>
+        <translation>Milestones</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="529"/>
         <source>Projektfortschrittsberichte</source>
-        <translation>project progression reports</translation>
+        <translation>Project progression reports</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="542"/>
@@ -245,32 +245,32 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/projectdialog.ui" line="714"/>
         <source>Neuer Meilenstein eingetragen...</source>
-        <translation>new milestone added...</translation>
+        <translation>new Milestone added...</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="737"/>
         <source>Neuer Projektfortschritt eingetragen...</source>
-        <translation>new progress report added...</translation>
+        <translation>new Progress Report added...</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="743"/>
         <source>Bewertung (ex ante)</source>
-        <translation>evaluation (ex ante)</translation>
+        <translation>Evaluation (ex ante)</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="755"/>
         <source>Datum der Bewertung</source>
-        <translation>date of evaluation</translation>
+        <translation>Date of Evaluation</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="768"/>
         <source>Beitrag zu den strategischen Zielen</source>
-        <translation>effect on strategic goals</translation>
+        <translation>Effect on Strategic Goals</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="806"/>
         <source>Arbeitsplatzeffekte:</source>
-        <translation>work force effects:</translation>
+        <translation>Workforce Effects:</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="819"/>
@@ -311,22 +311,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/projectdialog.ui" line="858"/>
         <source>Wertschöpfungseffekte:</source>
-        <translation>added value effects:</translation>
+        <translation>Added Value Effects:</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="985"/>
         <source>Öffentlichkeitswirksamkeit:</source>
-        <translation>effects on publicity:</translation>
+        <translation>Effects on Publicity:</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="998"/>
         <source>Kundenbindungs- / Neukundeneffekte:</source>
-        <translation>effects on customer loyality / acquisition:</translation>
+        <translation>Effects on Customer Loyality / acquisition:</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1089"/>
         <source>Notwendige Ressourcen</source>
-        <translation>critical ressources</translation>
+        <translation>Critical Ressources</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1122"/>
@@ -343,7 +343,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/projectdialog.ui" line="1148"/>
         <source>Kritische Punkte und Risiken:</source>
-        <translation>critical points and risks:</translation>
+        <translation>Critical Points and Risks:</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1207"/>
@@ -373,27 +373,27 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/projectdialog.ui" line="1223"/>
         <source>Projektabschluss</source>
-        <translation>end of project</translation>
+        <translation>End of Project</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1258"/>
         <source>Datum Projektabschluss</source>
-        <translation>enf of project date</translation>
+        <translation>Project End date</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1271"/>
         <source>Fazit</source>
-        <translation>conclusion</translation>
+        <translation>Conclusion</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1297"/>
         <source>Ressourceneinsatz</source>
-        <translation>consumed ressources</translation>
+        <translation>Consumed Ressources</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1356"/>
         <source>Arbeitsplatzeffekte Einschätzung:</source>
-        <translation>work force effects assessment:</translation>
+        <translation>Workforce Effects Assessment:</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1378"/>
@@ -408,12 +408,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/projectdialog.ui" line="1410"/>
         <source>Wertschöpfungseffekte / ausgelöste Investitionen Einschätzung:</source>
-        <translation>added value effects assessment:</translation>
+        <translation>Added Value Effects Assessment:</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1548"/>
         <source>Öffenlichkeitswirksamkeit Einschätzung:</source>
-        <translation>publicity effects assessment:</translation>
+        <translation>Publicity Effects Assessment:</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1570"/>
@@ -428,22 +428,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/projectdialog.ui" line="1724"/>
         <source>Kundenbindung / Neukunden Einschätzung:</source>
-        <translation>effects on customer loyality / acquisition assessment:</translation>
+        <translation>Effects on Customer Loyality / acquisition assessment:</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1740"/>
         <source>Lessons Learned</source>
-        <translation>lessons learned</translation>
+        <translation>Lessons Learned</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1768"/>
         <source>Speichern</source>
-        <translation>save</translation>
+        <translation>Save</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1793"/>
         <source>Das Projekt wird gespeichert...</source>
-        <translation>project is being saved...</translation>
+        <translation>Project is being saved...</translation>
     </message>
     <message>
         <location filename="../forms/projectdialog.ui" line="1815"/>
@@ -456,7 +456,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/project_poster.ui" line="32"/>
         <source>Projektsteckbrief</source>
-        <translation>project poster</translation>
+        <translation>Project Poster</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="81"/>
@@ -466,47 +466,47 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/project_poster.ui" line="91"/>
         <source>Status</source>
-        <translation>status</translation>
+        <translation>Status</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="104"/>
         <source>Projektbeteiligte:</source>
-        <translation>project participants:</translation>
+        <translation>Project Participants:</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="123"/>
         <source>Projektleiter:</source>
-        <translation>project head:</translation>
+        <translation>Project Head:</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="130"/>
         <source>Leiter_MA</source>
-        <translation>project manager</translation>
+        <translation>Project Manager</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="144"/>
         <source>Projekttitel</source>
-        <translation>project title</translation>
+        <translation>Project Title</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="157"/>
         <source>Projektstatus:</source>
-        <translation>project status:</translation>
+        <translation>Project Status:</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="164"/>
         <source>Beteiligte</source>
-        <translation>participants</translation>
+        <translation>Participants</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="181"/>
         <source>Übersicht</source>
-        <translation>overview</translation>
+        <translation>Overview</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="187"/>
         <source>Projektübersicht</source>
-        <translation>project overview</translation>
+        <translation>Project Overview</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="199"/>
@@ -526,48 +526,48 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../forms/project_poster.ui" line="244"/>
         <source>Projektziele</source>
-        <translation>project goals</translation>
+        <translation>Project Goals</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="251"/>
         <source>Kurzbeschreibung</source>
-        <translation>short description</translation>
+        <translation>Short Description</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="258"/>
         <source>Rolle</source>
-        <translation>role</translation>
+        <translation>Role</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="268"/>
         <source>Projektstatus</source>
-        <translation>project status</translation>
+        <translation>Project Status</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="294"/>
         <source>Projektforschritt:</source>
-        <translation>project progression:</translation>
+        <translation>Project Progression:</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="301"/>
         <source>Projektmeilensteine:</source>
-        <translation>project milestones:</translation>
+        <translation>Project Milestones:</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="312"/>
         <source>Bewertung (ex ante)</source>
-        <translation>evaluation (ex ante)</translation>
+        <translation>Evaluation (ex ante)</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="321"/>
         <source>Projektbewertung</source>
-        <translation>project evaluation</translation>
+        <translation>Project Evaluation</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="340"/>
         <location filename="../forms/project_poster.ui" line="573"/>
         <source>Ressourcen personell</source>
-        <translation>ressources personnel</translation>
+        <translation>Ressources personnel</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="356"/>
@@ -585,67 +585,67 @@ p, li { white-space: pre-wrap; }
         <location filename="../forms/project_poster.ui" line="418"/>
         <location filename="../forms/project_poster.ui" line="651"/>
         <source>Ressourcen finanziell</source>
-        <translation>ressources financial</translation>
+        <translation>Ressources financial</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="428"/>
         <location filename="../forms/project_poster.ui" line="661"/>
         <source>Öffenlichkeitsarbeit</source>
-        <translation>publicity</translation>
+        <translation>Publicity</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="438"/>
         <location filename="../forms/project_poster.ui" line="671"/>
         <source>Kundenbindung / Neukundengewinnung</source>
-        <translation>customer loyality / acquisition </translation>
+        <translation>Customer Loyality / acquisition </translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="464"/>
         <source>Kritische Punkte und Risiken</source>
-        <translation>critical points and risks</translation>
+        <translation>Critical Points and Risks</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="474"/>
         <location filename="../forms/project_poster.ui" line="707"/>
         <source>Arbeitsplatzeffekte</source>
-        <translation>work force effects</translation>
+        <translation>Workforce Effects</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="500"/>
         <location filename="../forms/project_poster.ui" line="733"/>
         <source>Wertschöpfung</source>
-        <translation>added value</translation>
+        <translation>Added Value</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="510"/>
         <source>Beitrag zu den strategischen Zielen</source>
-        <translation>effect on strategic goals</translation>
+        <translation>Effect on Strategic Goals</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="530"/>
         <location filename="../forms/project_poster.ui" line="753"/>
         <source>Datum der Bewertung:</source>
-        <translation>date of evaluation:</translation>
+        <translation>Date of Evaluation:</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="538"/>
         <source>Abschluss</source>
-        <translation>project end</translation>
+        <translation>Project End</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="554"/>
         <source>Projektabschluss</source>
-        <translation>project end</translation>
+        <translation>Project End</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="697"/>
         <source>Lessons Learned</source>
-        <translation>lessons learned</translation>
+        <translation>Lessons Learned</translation>
     </message>
     <message>
         <location filename="../forms/project_poster.ui" line="743"/>
         <source>Fazit</source>
-        <translation>conclusion</translation>
+        <translation>Conclusion</translation>
     </message>
 </context>
 </TS>

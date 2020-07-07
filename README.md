@@ -6,15 +6,17 @@ PMS - Project Management System
 
 ![MainWindow](https://github.com/ntropy83/tu2/blob/master/img/MainWindow.png)
 
-## version 1.1.0
+## version 1.2.0
 - create and modify projects
 - list them with infos
 - add milestones and project advancements
-- create a project evaluation
+- create a project evaluation (specific)
+- English translation
 
 # Planned features
-- English translation
 - Kanban functionality
+- responsive design
+- user defined project evaluation
 
 # Libraries and Dependencies
 Created with QtCreator 4.11 / Qt 5.14 (Gcc 9.2.0, 64bit)
@@ -48,4 +50,4 @@ export PATH=<mxe root>/usr/bin:$PATH
 <mxe root>/usr/i686-pc-mingw32/qt5/bin/qmake
 make -f Makefile.Release && make clean -f Makefile.Release
 ```
-If while cross compilation there is a compile error, you may revert this commit: https://github.com/ntropy83/tu2/commit/98643318dde6c9c76d6ba8768cad282c4941ec8c
+If, while cross compilation there is a compile error, you may revert this commit: https://github.com/ntropy83/tu2/commit/98643318dde6c9c76d6ba8768cad282c4941ec8c

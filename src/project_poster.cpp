@@ -21,7 +21,7 @@ void project_poster::setprojectText(QString index){
 
    QStringList line_data = edit_readout(index);
    global_edit = index;
-   this->setWindowTitle("Projektsteckbrief - " + line_data[1]);
+   this->setWindowTitle("Projektsteckbrief(Project Poster) - " + line_data[1]);
 
    ui->label_titel->setText(line_data[1]);
    ui->label_MA->setText(line_data[2]);
@@ -46,9 +46,9 @@ void project_poster::setprojectText(QString index){
    ui->graphicsView_3->setEnabled(false);
 
    if(line_data.at(13) == "01.01.2020"){
-       ui->label_bewertung->setText("<b>unbewertet</b>");
+       ui->label_bewertung->setText("<b>unbewertet/no entry</b>");
    }else{
-       ui->label_bewertung->setText("Datum der Bewertung: " + line_data.at(13));
+       ui->label_bewertung->setText("Datum der Bewertung(Date of Evaluation): " + line_data.at(13));
        ui->groupBox_2->setEnabled(true);
        ui->graphicsView->setEnabled(true);
    }
@@ -62,9 +62,9 @@ void project_poster::setprojectText(QString index){
    ui->textEdit_kp->setText(line_data.at(21));
 
    if(line_data.at(22) == "01.01.2020"){
-       ui->label_bewertung_ab->setText("<b>unbewertet</b>");
+       ui->label_bewertung_ab->setText("<b>unbewertet/no entry</b>");
    }else{
-       ui->label_bewertung_ab->setText("Datum der Bewertung: " + line_data.at(22));
+       ui->label_bewertung_ab->setText("Datum der Bewertung(Date of Evaluation): " + line_data.at(22));
        ui->groupBox_7->setEnabled(true);
        ui->graphicsView_3->setEnabled(true);
    }

@@ -147,7 +147,7 @@ inline QStandardItemModel* readout(QString tab){
 
               if(line_data.at(6) == "01.01.2020"){ line_data[6] = "-"; }
 
-              if(line_data.at(3) == "beendet")
+              if(line_data.at(3) == "beendet" || line_data.at(3) == "finished")
                  prj_end=true;
 
               if(tab == "active" && !prj_end){

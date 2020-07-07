@@ -135,7 +135,7 @@ void MainWindow::on_tableView_2_doubleClicked()
 void MainWindow::on_actionVersion_triggered()
 {
     QMessageBox msgBox;
-    msgBox.setText("Projektverwaltung<br><br>repo: <a href=\"https://github.com/ntropy83/tu2\">github/ntropy83/tu2</a><br>Licensed under "
+    msgBox.setText("tu2 - PMS<br><br>repo: <a href=\"https://github.com/ntropy83/tu2\">github/ntropy83/tu2</a><br>Licensed under "
                    "<a href=\"https://github.com/ntropy83/tu2/blob/master/LICENSE\">GPL-3.0</a><br>v1.2.0");
     msgBox.exec();
 }
@@ -143,9 +143,12 @@ void MainWindow::on_actionVersion_triggered()
 void MainWindow::on_actionHilfe_triggered()
 {
     QMessageBox msgBox;
-    msgBox.setText("Klicken Sie auf Projektverwaltung im Menu und erstellen Sie ein Projekt.<br>Danach erscheint es in der Hauptliste und Details können per Doppelklick auf "
+    msgBox.setText("[ger]<br>Klicken Sie auf Projektverwaltung im Menu und erstellen Sie ein Projekt.<br>Danach erscheint es in der Hauptliste und Details können per Doppelklick auf "
                    "die Zeile des Projektes aufgerufen werden.<br><br>Um Ein Projekt zu editieren, wählen sie mit einfachem Klick die Zeile des Projektes in der Hauptliste aus (Spalte ist egal) und "
-                   "klicken Sie im Menu Projektverwaltung auf editieren. Jetzt können Sie auch Meilensteine hinzufügen und Projektfortschrittsberichte schreiben.");
+                   "klicken Sie im Menu Projektverwaltung auf editieren. Jetzt können Sie auch Meilensteine hinzufügen und Projektfortschrittsberichte schreiben.<br><br>"
+                   "[eng]<br>Click on Project Management in the menu and create a project by filling out its description.<br>After that it shows up in the main table and details can be viewed, if you "
+                   "double click the entry.<br><br>To edit a project, chose it from the main table by clicking it once (column does not matter) and click Edit Project from the main menu. "
+                   "Now you may add milestones and project progress reports aswell.");
     msgBox.exec();
 }
 
@@ -168,7 +171,13 @@ void MainWindow::createLanguageMenu(void)
     defaultLocale.truncate(defaultLocale.lastIndexOf('_')); // e.g. "de"
 
     m_langPath = QApplication::applicationDirPath();
-    m_langPath.append("/languages");
+
+    if(app_dir != ""){
+        m_langPath.append("/usr/lib/tu2/languages");
+    }else{
+        m_langPath.append("/languages");
+    }
+
     QDir dir(m_langPath);
     QStringList fileNames = dir.entryList(QStringList("tu2_*.qm"));
 
@@ -214,7 +223,13 @@ void switchTranslator(QTranslator& translator, const QString& filename)
 
     // load the new translator
     QString path = QApplication::applicationDirPath();
-    path.append("/languages/");
+
+    if(app_dir != ""){
+        path.append("/usr/lib/tu2/languages/");
+    }else{
+        path.append("/languages/");
+    }
+
      if(translator.load(path + filename)) //Here Path and Filename has to be entered because the system didn't find the QM Files else
           qApp->installTranslator(&translator);
 }
