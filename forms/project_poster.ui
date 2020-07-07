@@ -174,7 +174,7 @@ color: green;</string>
           <bool>true</bool>
          </property>
          <property name="currentIndex">
-          <number>2</number>
+          <number>0</number>
          </property>
          <widget class="QWidget" name="tab">
           <attribute name="title">
@@ -255,7 +255,7 @@ p, li { white-space: pre-wrap; }
               <item row="0" column="2">
                <widget class="QLabel" name="label_5">
                 <property name="text">
-                 <string>Rolle der BoWe</string>
+                 <string>Rolle</string>
                 </property>
                </widget>
               </item>
@@ -265,7 +265,7 @@ p, li { white-space: pre-wrap; }
            <item row="1" column="0">
             <widget class="QGroupBox" name="groupBox_3">
              <property name="title">
-              <string>GroupBox</string>
+              <string>Projektstatus</string>
              </property>
              <layout class="QGridLayout" name="gridLayout_5">
               <item row="1" column="1">
@@ -298,7 +298,7 @@ p, li { white-space: pre-wrap; }
               <item row="0" column="1">
                <widget class="QLabel" name="label_7">
                 <property name="text">
-                 <string>Meilensteine:</string>
+                 <string>Projektmeilensteine:</string>
                 </property>
                </widget>
               </item>
@@ -507,7 +507,7 @@ p, li { white-space: pre-wrap; }
                  <bool>true</bool>
                 </property>
                 <property name="text">
-                 <string>Beitrag zu den Abteilungszielen</string>
+                 <string>Beitrag zu den strategischen Zielen</string>
                 </property>
                </widget>
               </item>

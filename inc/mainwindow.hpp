@@ -36,10 +36,6 @@ private slots:
 
     void on_actionHilfe_triggered();
 
-    void on_actionDeutsch_triggered();
-
-    void on_actionEnglisch_triggered();
-
 private:
     // loads a language by the given language shortcur (e.g. de, en)
     void loadLanguage(const QString& rLanguage);

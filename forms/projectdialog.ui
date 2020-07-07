@@ -208,8 +208,8 @@
       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Noto Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10.5pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_7">
@@ -227,7 +227,7 @@ p, li { white-space: pre-wrap; }
       </font>
      </property>
      <property name="text">
-      <string>Rolle der BoWe</string>
+      <string>Rolle</string>
      </property>
     </widget>
     <widget class="QTextEdit" name="textEdit_role">
@@ -246,8 +246,8 @@ p, li { white-space: pre-wrap; }
       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Noto Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10.5pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_8">
@@ -284,8 +284,8 @@ p, li { white-space: pre-wrap; }
       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Noto Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10.5pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QDateEdit" name="dateEdit_start">
@@ -330,8 +330,8 @@ p, li { white-space: pre-wrap; }
       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans';&quot;&gt;-&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10.5pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;-&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_11">
@@ -362,7 +362,7 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>10</y>
-       <width>101</width>
+       <width>131</width>
        <height>101</height>
       </rect>
      </property>
@@ -415,9 +415,9 @@ p, li { white-space: pre-wrap; }
     <widget class="QGroupBox" name="groupBox_2">
      <property name="geometry">
       <rect>
-       <x>450</x>
+       <x>420</x>
        <y>10</y>
-       <width>111</width>
+       <width>141</width>
        <height>101</height>
       </rect>
      </property>
@@ -461,7 +461,7 @@ p, li { white-space: pre-wrap; }
        <rect>
         <x>10</x>
         <y>70</y>
-        <width>81</width>
+        <width>121</width>
         <height>26</height>
        </rect>
       </property>
@@ -760,12 +760,12 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>70</y>
-       <width>191</width>
+       <width>241</width>
        <height>17</height>
       </rect>
      </property>
      <property name="text">
-      <string>Beitrag zu den Abteilungszielen</string>
+      <string>Beitrag zu den strategischen Zielen</string>
      </property>
     </widget>
     <widget class="QSlider" name="horizontalSlider_AEffekt">
@@ -774,7 +774,7 @@ p, li { white-space: pre-wrap; }
        <x>10</x>
        <y>270</y>
        <width>551</width>
-       <height>21</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="maximum">
@@ -798,7 +798,7 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>250</y>
-       <width>121</width>
+       <width>141</width>
        <height>17</height>
       </rect>
      </property>
@@ -810,7 +810,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>290</y>
+       <y>300</y>
        <width>21</width>
        <height>17</height>
       </rect>
@@ -823,7 +823,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>280</x>
-       <y>290</y>
+       <y>300</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -836,7 +836,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>550</x>
-       <y>290</y>
+       <y>300</y>
        <width>21</width>
        <height>17</height>
       </rect>
@@ -850,7 +850,7 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>320</y>
-       <width>141</width>
+       <width>161</width>
        <height>17</height>
       </rect>
      </property>
@@ -862,7 +862,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>280</x>
-       <y>360</y>
+       <y>370</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -875,7 +875,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>360</y>
+       <y>370</y>
        <width>21</width>
        <height>17</height>
       </rect>
@@ -888,7 +888,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>550</x>
-       <y>360</y>
+       <y>370</y>
        <width>21</width>
        <height>17</height>
       </rect>
@@ -903,7 +903,7 @@ p, li { white-space: pre-wrap; }
        <x>10</x>
        <y>340</y>
        <width>551</width>
-       <height>21</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="maximum">
@@ -928,7 +928,7 @@ p, li { white-space: pre-wrap; }
        <x>10</x>
        <y>410</y>
        <width>551</width>
-       <height>21</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="maximum">
@@ -953,7 +953,7 @@ p, li { white-space: pre-wrap; }
        <x>10</x>
        <y>480</y>
        <width>551</width>
-       <height>21</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="maximum">
@@ -977,7 +977,7 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>390</y>
-       <width>161</width>
+       <width>191</width>
        <height>17</height>
       </rect>
      </property>
@@ -990,7 +990,7 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>460</y>
-       <width>231</width>
+       <width>271</width>
        <height>17</height>
       </rect>
      </property>
@@ -1002,7 +1002,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>430</y>
+       <y>440</y>
        <width>21</width>
        <height>17</height>
       </rect>
@@ -1015,7 +1015,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>500</y>
+       <y>510</y>
        <width>21</width>
        <height>17</height>
       </rect>
@@ -1028,7 +1028,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>280</x>
-       <y>430</y>
+       <y>440</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1041,7 +1041,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>280</x>
-       <y>500</y>
+       <y>510</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1054,7 +1054,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>550</x>
-       <y>430</y>
+       <y>440</y>
        <width>21</width>
        <height>17</height>
       </rect>
@@ -1067,7 +1067,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>550</x>
-       <y>500</y>
+       <y>510</y>
        <width>21</width>
        <height>17</height>
       </rect>
@@ -1164,8 +1164,8 @@ p, li { white-space: pre-wrap; }
       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Noto Sans';&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10.5pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QDateEdit" name="dateEdit_Bewertung">
@@ -1173,7 +1173,7 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>30</y>
-       <width>110</width>
+       <width>121</width>
        <height>26</height>
       </rect>
      </property>
@@ -1207,14 +1207,14 @@ p, li { white-space: pre-wrap; }
       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans';&quot;&gt;-  Arbeitsplätze sichern und schaffen &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans';&quot;&gt;-  Wertschöpfung steigern &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans';&quot;&gt;-  Unternehmensansiedlungen und Unternehmensberatungen &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans';&quot;&gt;-  Wissens- und Technologietransfer &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans';&quot;&gt;-  Netzwerkarbeit &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans';&quot;&gt;-  Fördermittelakquisition &lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans';&quot;&gt;-  Imageverbesserung des Wirtschaftsstandorts Bochum&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10.5pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;-  Arbeitsplätze sichern und schaffen &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;-  Wertschöpfung steigern &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;-  Unternehmensansiedlungen und Unternehmensberatungen &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;-  Wissens- und Technologietransfer &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;-  Netzwerkarbeit &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;-  Fördermittelakquisition &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;-  Imageverbesserung des Wirtschaftsstandorts Bochum&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
    </widget>
@@ -1348,12 +1348,12 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>250</y>
-       <width>141</width>
+       <width>271</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>Arbeitsplatzeffekte Einschätzung zu Beginn:</string>
+      <string>Arbeitsplatzeffekte Einschätzung:</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -1362,10 +1362,10 @@ p, li { white-space: pre-wrap; }
     <widget class="QLabel" name="label_AEffekte">
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>270</y>
-       <width>101</width>
-       <height>17</height>
+       <x>550</x>
+       <y>250</y>
+       <width>121</width>
+       <height>41</height>
       </rect>
      </property>
      <property name="font">
@@ -1381,10 +1381,10 @@ p, li { white-space: pre-wrap; }
     <widget class="QLabel" name="label_WEffekte">
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>360</y>
-       <width>101</width>
-       <height>17</height>
+       <x>550</x>
+       <y>340</y>
+       <width>121</width>
+       <height>41</height>
       </rect>
      </property>
      <property name="font">
@@ -1402,12 +1402,12 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>340</y>
-       <width>281</width>
+       <width>431</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>Wertschöpfungseffekte / ausgelöste Investitionen Einschätzung zu Beginn:</string>
+      <string>Wertschöpfungseffekte / ausgelöste Investitionen Einschätzung:</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -1419,7 +1419,7 @@ p, li { white-space: pre-wrap; }
        <x>10</x>
        <y>290</y>
        <width>551</width>
-       <height>16</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="maximum">
@@ -1439,7 +1439,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>310</y>
+       <y>320</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1452,7 +1452,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>550</x>
-       <y>310</y>
+       <y>320</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1465,7 +1465,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>280</x>
-       <y>310</y>
+       <y>320</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1480,7 +1480,7 @@ p, li { white-space: pre-wrap; }
        <x>10</x>
        <y>380</y>
        <width>551</width>
-       <height>16</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="maximum">
@@ -1500,7 +1500,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>400</y>
+       <y>410</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1513,7 +1513,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>280</x>
-       <y>400</y>
+       <y>410</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1526,7 +1526,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>550</x>
-       <y>400</y>
+       <y>410</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1540,12 +1540,12 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>430</y>
-       <width>151</width>
+       <width>281</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>Öffenlichkeitswirksamkeit Einschätzung zu Beginn:</string>
+      <string>Öffenlichkeitswirksamkeit Einschätzung:</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -1554,10 +1554,10 @@ p, li { white-space: pre-wrap; }
     <widget class="QLabel" name="label_OEffekte">
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>450</y>
-       <width>101</width>
-       <height>17</height>
+       <x>550</x>
+       <y>430</y>
+       <width>121</width>
+       <height>41</height>
       </rect>
      </property>
      <property name="font">
@@ -1576,7 +1576,7 @@ p, li { white-space: pre-wrap; }
        <x>10</x>
        <y>470</y>
        <width>551</width>
-       <height>16</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="maximum">
@@ -1596,7 +1596,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>280</x>
-       <y>490</y>
+       <y>500</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1609,7 +1609,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>490</y>
+       <y>500</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1622,7 +1622,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>550</x>
-       <y>490</y>
+       <y>500</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1635,7 +1635,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>280</x>
-       <y>580</y>
+       <y>590</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1648,7 +1648,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>550</x>
-       <y>580</y>
+       <y>590</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1661,7 +1661,7 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>580</y>
+       <y>590</y>
        <width>16</width>
        <height>17</height>
       </rect>
@@ -1676,7 +1676,7 @@ p, li { white-space: pre-wrap; }
        <x>10</x>
        <y>560</y>
        <width>551</width>
-       <height>16</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="maximum">
@@ -1695,10 +1695,10 @@ p, li { white-space: pre-wrap; }
     <widget class="QLabel" name="label_NEffekte">
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>540</y>
-       <width>101</width>
-       <height>17</height>
+       <x>550</x>
+       <y>520</y>
+       <width>121</width>
+       <height>41</height>
       </rect>
      </property>
      <property name="font">
@@ -1716,12 +1716,12 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>520</y>
-       <width>171</width>
+       <width>421</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>Kundenbindung / Neukunden Einschätzung zu Beginn:</string>
+      <string>Kundenbindung / Neukunden Einschätzung:</string>
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -1798,7 +1798,7 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>20</x>
      <y>810</y>
-     <width>401</width>
+     <width>431</width>
      <height>17</height>
     </rect>
    </property>

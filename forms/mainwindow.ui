@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>TUII Projektverwaltung v1.0.0</string>
+   <string>TUII Projektverwaltung</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="sizePolicy">
@@ -102,7 +102,7 @@
        <bool>false</bool>
       </property>
       <property name="text">
-       <string>Save File Location: $HOME/.local/share/tu2</string>
+       <string>Speicherpfad: $HOME/.local/share/tu2</string>
       </property>
      </widget>
     </item>
@@ -114,7 +114,7 @@
      <x>0</x>
      <y>0</y>
      <width>1311</width>
-     <height>21</height>
+     <height>34</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuDatei">
@@ -140,10 +140,8 @@
    </widget>
    <widget class="QMenu" name="menuLanguage">
     <property name="title">
-     <string>Sprache</string>
+     <string>language</string>
     </property>
-    <addaction name="actionDeutsch"/>
-    <addaction name="actionEnglisch"/>
    </widget>
    <addaction name="menuDatei"/>
    <addaction name="menuAnleitung"/>
