@@ -43,11 +43,10 @@ The executable will go to the newly created build directory
 # Cross Compile
 can be cross compiled as 32bit program to Windows with mxe for Qt
 (https://github.com/mxe/mxe)<br>
-The 32bit cross-compiled windows version is in the release of the repo
+The 32bit cross-compiled windows version is in the release of the repo (please use this repos branch: cross-compile)
 
 ```
 export PATH=<mxe root>/usr/bin:$PATH
 <mxe root>/usr/i686-pc-mingw32/qt5/bin/qmake
 make -f Makefile.Release && make clean -f Makefile.Release
 ```
-If, while cross compilation there is a compile error, you may revert this commit: https://github.com/ntropy83/tu2/commit/98643318dde6c9c76d6ba8768cad282c4941ec8c
