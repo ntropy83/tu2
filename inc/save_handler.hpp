@@ -203,16 +203,16 @@ inline QStandardItemModel* readout(QString tab){
             }
         }
 
-        if(model->index(i, 7).data().toString() == "ja"){
+        if(model->index(i, 7).data().toString() == "ja" || model->index(i, 7).data().toString() == "yes"){
            model->setData(model->index(i,7), QBrush(Qt::yellow), Qt::BackgroundRole);
         }
-        if(model->index(i, 3).data().toString() == "aktiv"){
+        if(model->index(i, 3).data().toString() == "aktiv" || model->index(i, 3).data().toString() == "active"){
            model->setData(model->index(i,3), QBrush(Qt::green), Qt::BackgroundRole);
         }
-        if(model->index(i, 3).data().toString() == "pausiert"){
+        if(model->index(i, 3).data().toString() == "pausiert" || model->index(i, 3).data().toString() == "paused"){
            model->setData(model->index(i,3), QBrush(Qt::cyan), Qt::BackgroundRole);
         }
-        if(model->index(i, 3).data().toString() == "beendet"){
+        if(model->index(i, 3).data().toString() == "beendet" || model->index(i, 3).data().toString() == "finished"){
            model->setData(model->index(i,3), QBrush(Qt::red), Qt::BackgroundRole);
         }
      }

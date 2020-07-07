@@ -28,11 +28,11 @@ void project_poster::setprojectText(QString index){
    ui->label_Beteiligte->setText(line_data[9]);
    ui->label_status->setText(line_data[3]);
 
-   if(line_data[3] == "aktiv"){
+   if(line_data[3] == "aktiv" || line_data[3] == "active"){
        ui->label_status_ampel->setStyleSheet("background-color: green;\ncolor: green;");
-   }else if(line_data[3] == "pausiert"){
+   }else if(line_data[3] == "pausiert" || line_data[3] == "paused"){
        ui->label_status_ampel->setStyleSheet("background-color: cyan;\ncolor: cyan;");
-   }else if(line_data[3] == "beendet"){
+   }else if(line_data[3] == "beendet" || line_data[3] == "finished"){
        ui->label_status_ampel->setStyleSheet("background-color: red;\ncolor: red;");
    }
 
