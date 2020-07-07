@@ -14,7 +14,8 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    if(app_dir != "") ui->label_linux->setEnabled(true);
+    ui->label_linux->setVisible(false);
+    if(app_dir != "") ui->label_linux->setVisible(true);
 
     // Initiale Erstellung der Projekte.lib sowie Auslesen der DB
     // Initialisierung der tableView's
@@ -136,7 +137,7 @@ void MainWindow::on_actionVersion_triggered()
 {
     QMessageBox msgBox;
     msgBox.setText("tu2 - PMS<br><br>repo: <a href=\"https://github.com/ntropy83/tu2\">github/ntropy83/tu2</a><br>Licensed under "
-                   "<a href=\"https://github.com/ntropy83/tu2/blob/master/LICENSE\">GPL-3.0</a><br>v1.2.0");
+                   "<a href=\"https://github.com/ntropy83/tu2/blob/master/LICENSE\">GPL-3.0</a><br>v1.2.1");
     msgBox.exec();
 }
 
@@ -170,7 +171,11 @@ void MainWindow::createLanguageMenu(void)
     QString defaultLocale = QLocale::system().name(); // e.g. "de_DE"
     defaultLocale.truncate(defaultLocale.lastIndexOf('_')); // e.g. "de"
 
-    m_langPath = QApplication::applicationDirPath();
+    if (app_dir != ""){
+        m_langPath = "";
+    }else{
+        m_langPath = QApplication::applicationDirPath();
+    }
 
     if(app_dir != ""){
         m_langPath.append("/usr/lib/tu2/languages");
@@ -222,7 +227,10 @@ void switchTranslator(QTranslator& translator, const QString& filename)
     qApp->removeTranslator(&translator);
 
     // load the new translator
-    QString path = QApplication::applicationDirPath();
+    QString path = "";
+    if(app_dir == ""){
+        QString path = QApplication::applicationDirPath();
+    }
 
     if(app_dir != ""){
         path.append("/usr/lib/tu2/languages/");
