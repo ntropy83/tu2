@@ -177,18 +177,18 @@ inline QStandardItemModel* readout(QString tab){
 // Erstellt das Tabellenmodell
 
      model->setHeaderData(0, Qt::Horizontal, "#");
-     model->setHeaderData(1, Qt::Horizontal, "Projekttitel");
-     model->setHeaderData(2, Qt::Horizontal, "Mitarbeiter");
-     model->setHeaderData(3, Qt::Horizontal, "Zustand");
+     model->setHeaderData(1, Qt::Horizontal, "Project title");
+     model->setHeaderData(2, Qt::Horizontal, "Lead");
+     model->setHeaderData(3, Qt::Horizontal, "Condition");
      model->setHeaderData(4, Qt::Horizontal, "Start");
-     model->setHeaderData(5, Qt::Horizontal, "Letztes Update");
-     model->setHeaderData(6, Qt::Horizontal, "Letzter Bericht");
-     model->setHeaderData(7, Qt::Horizontal, "Bericht nä. Sitzung");
-     model->setHeaderData(8, Qt::Horizontal, "Bemerkungen");
+     model->setHeaderData(5, Qt::Horizontal, "Last Update");
+     model->setHeaderData(6, Qt::Horizontal, "Last Report");
+     model->setHeaderData(7, Qt::Horizontal, "Report next meeting");
+     model->setHeaderData(8, Qt::Horizontal, "Comments");
 
      for(int i=0; i<model->rowCount();i++){
 
-        if(model->index(i, 5).data().toString() != "-" && model->index(i, 3).data().toString() == "aktiv"){
+        if(model->index(i, 5).data().toString() != "-" && (model->index(i, 3).data().toString() == "aktiv" || model->index(i, 3).data().toString() == "active")){
 
             QDate datecheck = QDate::fromString(model->index(i, 5).data().toString(),"dd.MM.yyyy");
             QDate datecheck_red = datecheck.addDays(red_warn);
@@ -271,8 +271,8 @@ inline QStandardItemModel* readout_mp(QString type){
 
 // Erstellt das Tabellenmodell
 
-     model->setHeaderData(0, Qt::Horizontal, "Datum");
-     model->setHeaderData(1, Qt::Horizontal, "Meilenstein");
+     model->setHeaderData(0, Qt::Horizontal, "Date");
+     model->setHeaderData(1, Qt::Horizontal, "Milestone");
 
     return model;
 
