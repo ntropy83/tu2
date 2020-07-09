@@ -22,7 +22,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     ui->tableView->setModel(readout("active"));
     ui->tableView->setColumnWidth(0,2);
-    ui->tableView->setColumnWidth(1,250);
+    ui->tableView->setColumnWidth(1,350);
     ui->tableView->setColumnWidth(7,200);
     ui->tableView->verticalHeader()->setVisible(false);
     ui->tableView->horizontalHeader()->setStretchLastSection(true);
@@ -89,7 +89,7 @@ void MainWindow::on_actionProjekt_editieren_triggered()
         pDialog.exec();
     }else{
         QMessageBox msgBox;
-        msgBox.setText("Bitte wählen Sie eine Zeile aus...");
+        msgBox.setText("Bitte wählen Sie eine Zeile aus...\nPlease choose a row...");
         msgBox.exec();
     }
 }
@@ -227,14 +227,13 @@ void switchTranslator(QTranslator& translator, const QString& filename)
     qApp->removeTranslator(&translator);
 
     // load the new translator
-    QString path = "";
-    if(app_dir == ""){
-        QString path = QApplication::applicationDirPath();
-    }
+    QString path;
 
     if(app_dir != ""){
+        path = "";
         path.append("/usr/lib/tu2/languages/");
     }else{
+        path = QApplication::applicationDirPath();
         path.append("/languages/");
     }
 

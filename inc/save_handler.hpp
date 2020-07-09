@@ -176,15 +176,15 @@ inline QStandardItemModel* readout(QString tab){
      }
 // Erstellt das Tabellenmodell
 
-     model->setHeaderData(0, Qt::Horizontal, "#");
-     model->setHeaderData(1, Qt::Horizontal, "Project title");
-     model->setHeaderData(2, Qt::Horizontal, "Lead");
-     model->setHeaderData(3, Qt::Horizontal, "Condition");
-     model->setHeaderData(4, Qt::Horizontal, "Start");
-     model->setHeaderData(5, Qt::Horizontal, "Last Update");
-     model->setHeaderData(6, Qt::Horizontal, "Last Report");
-     model->setHeaderData(7, Qt::Horizontal, "Report next meeting");
-     model->setHeaderData(8, Qt::Horizontal, "Comments");
+        model->setHeaderData(0, Qt::Horizontal, "#");
+        model->setHeaderData(2, Qt::Horizontal, "Mitarbeiter\nLead");
+        model->setHeaderData(1, Qt::Horizontal, "Projekttitel\nProject title");
+        model->setHeaderData(3, Qt::Horizontal, "Zustand\nCondition");
+        model->setHeaderData(4, Qt::Horizontal, "Projektbeginn\nStart");
+        model->setHeaderData(5, Qt::Horizontal, "Letztes Update\nLast Update");
+        model->setHeaderData(6, Qt::Horizontal, "Letzter Bericht\nLast Report");
+        model->setHeaderData(7, Qt::Horizontal, "Bericht nä. Sitzung\nReport next meeting");
+        model->setHeaderData(8, Qt::Horizontal, "Bemerkungen\nComments");
 
      for(int i=0; i<model->rowCount();i++){
 
