@@ -137,7 +137,7 @@ void MainWindow::on_actionVersion_triggered()
 {
     QMessageBox msgBox;
     msgBox.setText("tu2 - PMS<br><br>repo: <a href=\"https://github.com/ntropy83/tu2\">github/ntropy83/tu2</a><br>Licensed under "
-                   "<a href=\"https://github.com/ntropy83/tu2/blob/master/LICENSE\">GPL-3.0</a><br>v1.2.2");
+                   "<a href=\"https://github.com/ntropy83/tu2/blob/master/LICENSE\">GPL-3.0</a><br>v1.2.3");
     msgBox.exec();
 }
 
