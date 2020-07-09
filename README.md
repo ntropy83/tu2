@@ -6,7 +6,7 @@ PMS - Project Management System
 
 ![MainWindow](https://github.com/ntropy83/tu2/blob/master/img/MainWindow.png)
 
-## version 1.2.2
+## version 1.2.3
 - create and modify projects
 - list them with infos
 - add milestones and project advancements
