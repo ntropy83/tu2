@@ -180,7 +180,7 @@ void MainWindow::createLanguageMenu(void)
     if(app_dir != ""){
         m_langPath.append("/usr/lib/tu2/languages");
     }else{
-        m_langPath.append("/languages");
+        m_langPath.append("/");
     }
 
     QDir dir(m_langPath);
@@ -234,7 +234,7 @@ void switchTranslator(QTranslator& translator, const QString& filename)
         path.append("/usr/lib/tu2/languages/");
     }else{
         path = QApplication::applicationDirPath();
-        path.append("/languages/");
+        path.append("/");
     }
 
      if(translator.load(path + filename)) //Here Path and Filename has to be entered because the system didn't find the QM Files else
