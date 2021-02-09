@@ -201,6 +201,8 @@ inline QStandardItemModel* readout(QString tab){
                      model->setData(model->index(i,5), QBrush(Qt::red), Qt::BackgroundRole);
                  }
             }
+        }else if(model->index(i, 5).data().toString() == "-" && model->index(i, 3).data().toString() == "aktiv"){
+           model->setData(model->index(i,5), QBrush(Qt::red), Qt::BackgroundRole);
         }
 
         if(model->index(i, 7).data().toString() == "ja"){

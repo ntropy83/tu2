@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>TUII Projektverwaltung v1.0.0</string>
+   <string>TUII Projektverwaltung v1.1.1</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="sizePolicy">
@@ -114,7 +114,7 @@
      <x>0</x>
      <y>0</y>
      <width>1311</width>
-     <height>24</height>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuDatei">

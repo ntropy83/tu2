@@ -134,7 +134,7 @@ void MainWindow::on_tableView_2_doubleClicked()
 void MainWindow::on_actionVersion_triggered()
 {
     QMessageBox msgBox;
-    msgBox.setText("Projektverwaltung v1.0.0<br><br>by <a href=\"https://github.com/enthalpie/TUII\">TUII_enthalpie_github</a><br><br><br>Licensed under "
+    msgBox.setText("Projektverwaltung v1.1.1<br><br>by <a href=\"https://github.com/enthalpie/TUII\">tu2_ntropy</a><br><br><br>Licensed under "
                    "<a href=\"https://github.com/enthalpie/TUII/blob/master/LICENSE\">GPL-3.0</a>");
     msgBox.exec();
 }
