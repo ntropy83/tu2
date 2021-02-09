@@ -6,1205 +6,725 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>581</width>
-    <height>835</height>
+    <width>1080</width>
+    <height>1080</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>581</width>
+    <width>835</width>
     <height>835</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>581</width>
-    <height>835</height>
+    <width>3840</width>
+    <height>2160</height>
    </size>
   </property>
   <property name="windowTitle">
    <string>Projekt erstellen</string>
   </property>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>0</y>
-     <width>191</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>11</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Projekt anlegen / editieren:</string>
-   </property>
-  </widget>
-  <widget class="Line" name="line">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>30</y>
-     <width>591</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="orientation">
-    <enum>Qt::Horizontal</enum>
-   </property>
-  </widget>
-  <widget class="QTabWidget" name="tabWidget">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>50</y>
-     <width>581</width>
-     <height>731</height>
-    </rect>
-   </property>
-   <property name="currentIndex">
-    <number>1</number>
-   </property>
-   <widget class="QWidget" name="tab_2">
-    <attribute name="title">
-     <string>Beschreibung</string>
-    </attribute>
-    <widget class="QLineEdit" name="lineEdit_MA">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>90</y>
-       <width>51</width>
-       <height>25</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_3">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>70</y>
-       <width>91</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Projektleitung</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_2">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>10</y>
-       <width>71</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Projekttitel</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_title">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>30</y>
-       <width>561</width>
-       <height>25</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_4">
-     <property name="geometry">
-      <rect>
-       <x>120</x>
-       <y>70</y>
-       <width>91</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Beginn</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_participants">
-     <property name="geometry">
-      <rect>
-       <x>240</x>
-       <y>90</y>
-       <width>331</width>
-       <height>25</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_5">
-     <property name="geometry">
-      <rect>
-       <x>240</x>
-       <y>70</y>
-       <width>111</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Projektbeteiligte</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_6">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>130</y>
-       <width>91</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Projektziele</string>
-     </property>
-    </widget>
-    <widget class="QTextEdit" name="textEdit_pgoals">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>150</y>
-       <width>561</width>
-       <height>121</height>
-      </rect>
-     </property>
-     <property name="tabChangesFocus">
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
       <bool>true</bool>
      </property>
-     <property name="html">
-      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1060</width>
+        <height>1060</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="4" column="1">
+        <widget class="QPushButton" name="pushButton_saveall">
+         <property name="text">
+          <string>Speichern</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_error">
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(170, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>Alle Felder der Projektbeschreibung müssen ausgefüllt sein...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_saved">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 85, 0);</string>
+         </property>
+         <property name="text">
+          <string>Das Projekt wird gespeichert...</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Projekt anlegen / editieren:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QTabWidget" name="tabWidget">
+         <property name="currentIndex">
+          <number>1</number>
+         </property>
+         <widget class="QWidget" name="tab_2">
+          <attribute name="title">
+           <string>Beschreibung</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_2">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Projekttitel</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0" colspan="3">
+            <widget class="QLineEdit" name="lineEdit_title"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_3">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Projektleitung</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLabel" name="label_4">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Beginn</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QLabel" name="label_5">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Projektbeteiligte</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLineEdit" name="lineEdit_MA"/>
+           </item>
+           <item row="3" column="1">
+            <widget class="QDateEdit" name="dateEdit_start">
+             <property name="dateTime">
+              <datetime>
+               <hour>0</hour>
+               <minute>0</minute>
+               <second>0</second>
+               <year>2021</year>
+               <month>1</month>
+               <day>1</day>
+              </datetime>
+             </property>
+             <property name="displayFormat">
+              <string>dd.MM.yyyy</string>
+             </property>
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2">
+            <widget class="QLineEdit" name="lineEdit_participants"/>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_6">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Projektziele</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0" colspan="3">
+            <widget class="QTextEdit" name="textEdit_pgoals">
+             <property name="tabChangesFocus">
+              <bool>true</bool>
+             </property>
+             <property name="html">
+              <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_7">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>280</y>
-       <width>101</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Rolle der BoWe</string>
-     </property>
-    </widget>
-    <widget class="QTextEdit" name="textEdit_role">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>300</y>
-       <width>561</width>
-       <height>61</height>
-      </rect>
-     </property>
-     <property name="tabChangesFocus">
-      <bool>true</bool>
-     </property>
-     <property name="html">
-      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="label_7">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Rolle der BoWe</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="0" colspan="3">
+            <widget class="QTextEdit" name="textEdit_role">
+             <property name="tabChangesFocus">
+              <bool>true</bool>
+             </property>
+             <property name="html">
+              <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_8">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>370</y>
-       <width>161</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Kurzbeschreibung</string>
-     </property>
-    </widget>
-    <widget class="QTextEdit" name="textEdit_ptext">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>390</y>
-       <width>561</width>
-       <height>241</height>
-      </rect>
-     </property>
-     <property name="tabChangesFocus">
-      <bool>true</bool>
-     </property>
-     <property name="html">
-      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="0" colspan="2">
+            <widget class="QLabel" name="label_8">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Kurzbeschreibung</string>
+             </property>
+            </widget>
+           </item>
+           <item row="9" column="0" colspan="3">
+            <widget class="QTextEdit" name="textEdit_ptext">
+             <property name="tabChangesFocus">
+              <bool>true</bool>
+             </property>
+             <property name="html">
+              <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QDateEdit" name="dateEdit_start">
-     <property name="geometry">
-      <rect>
-       <x>120</x>
-       <y>90</y>
-       <width>110</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="dateTime">
-      <datetime>
-       <hour>0</hour>
-       <minute>0</minute>
-       <second>0</second>
-       <year>2020</year>
-       <month>1</month>
-       <day>1</day>
-      </datetime>
-     </property>
-     <property name="displayFormat">
-      <string>dd.MM.yyyy</string>
-     </property>
-     <property name="calendarPopup">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QTextEdit" name="textEdit_bemerkung">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>650</y>
-       <width>561</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="tabChangesFocus">
-      <bool>true</bool>
-     </property>
-     <property name="html">
-      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="0" colspan="2">
+            <widget class="QLabel" name="label_11">
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Bemerkungen</string>
+             </property>
+            </widget>
+           </item>
+           <item row="11" column="0" colspan="3">
+            <widget class="QTextEdit" name="textEdit_bemerkung">
+             <property name="tabChangesFocus">
+              <bool>true</bool>
+             </property>
+             <property name="html">
+              <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;-&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_11">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>630</y>
-       <width>161</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Bemerkungen</string>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QWidget" name="tab_4">
-    <attribute name="title">
-     <string>Status</string>
-    </attribute>
-    <widget class="QGroupBox" name="groupBox">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>10</y>
-       <width>101</width>
-       <height>101</height>
-      </rect>
-     </property>
-     <property name="title">
-      <string>Projektzustand</string>
-     </property>
-     <widget class="QRadioButton" name="radioButton">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>30</y>
-        <width>96</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>aktiv</string>
-      </property>
-      <property name="checked">
-       <bool>true</bool>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_2">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>50</y>
-        <width>96</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>pausiert</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_3">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>70</y>
-        <width>96</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>beendet</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QGroupBox" name="groupBox_2">
-     <property name="geometry">
-      <rect>
-       <x>450</x>
-       <y>10</y>
-       <width>111</width>
-       <height>101</height>
-      </rect>
-     </property>
-     <property name="title">
-      <string>Bericht na. Sitzung</string>
-     </property>
-     <widget class="QRadioButton" name="radioButton_4">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>20</y>
-        <width>96</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>ja</string>
-      </property>
-      <property name="checked">
-       <bool>false</bool>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_5">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>20</y>
-        <width>96</width>
-        <height>23</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>nein</string>
-      </property>
-      <property name="checked">
-       <bool>true</bool>
-      </property>
-     </widget>
-     <widget class="QDateEdit" name="dateEdit_Bericht">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>70</y>
-        <width>81</width>
-        <height>26</height>
-       </rect>
-      </property>
-      <property name="displayFormat">
-       <string>dd.MM.yyyy</string>
-      </property>
-      <property name="calendarPopup">
-       <bool>true</bool>
-      </property>
-      <property name="date">
-       <date>
-        <year>2020</year>
-        <month>1</month>
-        <day>1</day>
-       </date>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_16">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>50</y>
-        <width>91</width>
-        <height>17</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Letzter Bericht</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QLabel" name="label_milestones">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>130</y>
-       <width>131</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Meilensteine</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_project">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>410</y>
-       <width>171</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Projektfortschrittsberichte</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_new_milestones">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>330</y>
-       <width>101</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Neu</string>
-     </property>
-    </widget>
-    <widget class="QTableView" name="tableView_milestones">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>150</y>
-       <width>551</width>
-       <height>131</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(239, 239, 239);</string>
-     </property>
-     <property name="sortingEnabled">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="QTableView" name="tableView_project">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>430</y>
-       <width>551</width>
-       <height>131</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(239, 239, 239);</string>
-     </property>
-     <property name="sortingEnabled">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="QDateEdit" name="dateEdit_milestones">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>290</y>
-       <width>110</width>
-       <height>26</height>
-      </rect>
-     </property>
-     <property name="dateTime">
-      <datetime>
-       <hour>0</hour>
-       <minute>0</minute>
-       <second>0</second>
-       <year>2020</year>
-       <month>1</month>
-       <day>1</day>
-      </datetime>
-     </property>
-     <property name="displayFormat">
-      <string>dd.MM.yyyy</string>
-     </property>
-     <property name="calendarPopup">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_edit_milestones">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>370</y>
-       <width>101</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Editieren</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_project_edit">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>650</y>
-       <width>101</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Editieren</string>
-     </property>
-    </widget>
-    <widget class="QDateEdit" name="dateEdit_project">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>570</y>
-       <width>110</width>
-       <height>26</height>
-      </rect>
-     </property>
-     <property name="dateTime">
-      <datetime>
-       <hour>0</hour>
-       <minute>0</minute>
-       <second>0</second>
-       <year>2020</year>
-       <month>1</month>
-       <day>1</day>
-      </datetime>
-     </property>
-     <property name="displayFormat">
-      <string>dd.MM.yyyy</string>
-     </property>
-     <property name="calendarPopup">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_project_new">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>610</y>
-       <width>101</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Neu</string>
-     </property>
-    </widget>
-    <widget class="QTextEdit" name="textEdit_milestones">
-     <property name="geometry">
-      <rect>
-       <x>130</x>
-       <y>290</y>
-       <width>431</width>
-       <height>111</height>
-      </rect>
-     </property>
-     <property name="tabChangesFocus">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QTextEdit" name="textEdit_project">
-     <property name="geometry">
-      <rect>
-       <x>130</x>
-       <y>570</y>
-       <width>431</width>
-       <height>111</height>
-      </rect>
-     </property>
-     <property name="tabChangesFocus">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_new_mile">
-     <property name="geometry">
-      <rect>
-       <x>340</x>
-       <y>130</y>
-       <width>231</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color: rgb(0, 85, 0);</string>
-     </property>
-     <property name="text">
-      <string>Neuer Meilenstein eingetragen...</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_new_project">
-     <property name="geometry">
-      <rect>
-       <x>300</x>
-       <y>410</y>
-       <width>261</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color: rgb(0, 85, 0);</string>
-     </property>
-     <property name="text">
-      <string>Neuer Projektfortschritt eingetragen...</string>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QWidget" name="tab_3">
-    <attribute name="title">
-     <string>Bewertung (ex ante)</string>
-    </attribute>
-    <widget class="QLabel" name="label_9">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>10</y>
-       <width>141</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Datum der Bewertung</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_13">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>70</y>
-       <width>191</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Beitrag zu den Abteilungszielen</string>
-     </property>
-    </widget>
-    <widget class="QSlider" name="horizontalSlider_AEffekt">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>270</y>
-       <width>551</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="maximum">
-      <number>10</number>
-     </property>
-     <property name="pageStep">
-      <number>2</number>
-     </property>
-     <property name="sliderPosition">
-      <number>5</number>
-     </property>
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-     <property name="tickInterval">
-      <number>0</number>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_14">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>250</y>
-       <width>121</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Arbeitsplatzeffekte:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_15">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>290</y>
-       <width>21</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_AEffekt">
-     <property name="geometry">
-      <rect>
-       <x>280</x>
-       <y>290</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>5</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_17">
-     <property name="geometry">
-      <rect>
-       <x>550</x>
-       <y>290</y>
-       <width>21</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>10</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_18">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>320</y>
-       <width>141</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Wertschöpfungseffekte:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_Wertschoepfung">
-     <property name="geometry">
-      <rect>
-       <x>280</x>
-       <y>360</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>5</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_20">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>360</y>
-       <width>21</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_21">
-     <property name="geometry">
-      <rect>
-       <x>550</x>
-       <y>360</y>
-       <width>21</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>10</string>
-     </property>
-    </widget>
-    <widget class="QSlider" name="horizontalSlider_Wertschoepfung">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>340</y>
-       <width>551</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="maximum">
-      <number>10</number>
-     </property>
-     <property name="pageStep">
-      <number>2</number>
-     </property>
-     <property name="sliderPosition">
-      <number>5</number>
-     </property>
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-     <property name="tickInterval">
-      <number>0</number>
-     </property>
-    </widget>
-    <widget class="QSlider" name="horizontalSlider_oeffi">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>410</y>
-       <width>551</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="maximum">
-      <number>10</number>
-     </property>
-     <property name="pageStep">
-      <number>2</number>
-     </property>
-     <property name="sliderPosition">
-      <number>5</number>
-     </property>
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-     <property name="tickInterval">
-      <number>0</number>
-     </property>
-    </widget>
-    <widget class="QSlider" name="horizontalSlider_Bindung">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>480</y>
-       <width>551</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="maximum">
-      <number>10</number>
-     </property>
-     <property name="pageStep">
-      <number>2</number>
-     </property>
-     <property name="sliderPosition">
-      <number>5</number>
-     </property>
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-     <property name="tickInterval">
-      <number>0</number>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_22">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>390</y>
-       <width>161</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Öffentlichkeitswirksamkeit:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_23">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>460</y>
-       <width>231</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Kundenbindungs- / Neukundeneffekte:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_24">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>430</y>
-       <width>21</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_25">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>500</y>
-       <width>21</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_oeffi">
-     <property name="geometry">
-      <rect>
-       <x>280</x>
-       <y>430</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>5</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_Bindung">
-     <property name="geometry">
-      <rect>
-       <x>280</x>
-       <y>500</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>5</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_28">
-     <property name="geometry">
-      <rect>
-       <x>550</x>
-       <y>430</y>
-       <width>21</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>10</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_29">
-     <property name="geometry">
-      <rect>
-       <x>550</x>
-       <y>500</y>
-       <width>21</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>10</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_26">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>550</y>
-       <width>221</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Notwendige Ressourcen</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_res_finanziell">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>660</y>
-       <width>113</width>
-       <height>25</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_res_personell">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>600</y>
-       <width>113</width>
-       <height>25</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_27">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>580</y>
-       <width>61</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>personell:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_30">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>640</y>
-       <width>61</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>finanziell:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_31">
-     <property name="geometry">
-      <rect>
-       <x>230</x>
-       <y>550</y>
-       <width>221</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Kritische Punkte und Risiken:</string>
-     </property>
-    </widget>
-    <widget class="QTextEdit" name="textEdit_risiken">
-     <property name="geometry">
-      <rect>
-       <x>230</x>
-       <y>600</y>
-       <width>331</width>
-       <height>91</height>
-      </rect>
-     </property>
-     <property name="tabChangesFocus">
-      <bool>true</bool>
-     </property>
-     <property name="html">
-      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tab_4">
+          <attribute name="title">
+           <string>Status</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_7">
+           <item row="0" column="0">
+            <layout class="QGridLayout" name="gridLayout_6">
+             <item row="0" column="0">
+              <widget class="QGroupBox" name="groupBox">
+               <property name="title">
+                <string>Projektzustand</string>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_5">
+                <item row="0" column="0">
+                 <widget class="QRadioButton" name="radioButton">
+                  <property name="text">
+                   <string>aktiv</string>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QRadioButton" name="radioButton_2">
+                  <property name="text">
+                   <string>pausiert</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QRadioButton" name="radioButton_3">
+                  <property name="text">
+                   <string>beendet</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QGroupBox" name="groupBox_2">
+               <property name="title">
+                <string>Bericht na. Sitzung</string>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_4">
+                <item row="0" column="0">
+                 <widget class="QRadioButton" name="radioButton_4">
+                  <property name="text">
+                   <string>ja</string>
+                  </property>
+                  <property name="checked">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QRadioButton" name="radioButton_5">
+                  <property name="text">
+                   <string>nein</string>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0" colspan="2">
+                 <widget class="QLabel" name="label_16">
+                  <property name="text">
+                   <string>Letzter Bericht</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0" colspan="2">
+                 <widget class="QDateEdit" name="dateEdit_Bericht">
+                  <property name="dateTime">
+                   <datetime>
+                    <hour>0</hour>
+                    <minute>0</minute>
+                    <second>0</second>
+                    <year>2021</year>
+                    <month>1</month>
+                    <day>1</day>
+                   </datetime>
+                  </property>
+                  <property name="displayFormat">
+                   <string>dd.MM.yyyy</string>
+                  </property>
+                  <property name="calendarPopup">
+                   <bool>true</bool>
+                  </property>
+                  <property name="date">
+                   <date>
+                    <year>2021</year>
+                    <month>1</month>
+                    <day>1</day>
+                   </date>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="1" column="0" colspan="2">
+              <widget class="QLabel" name="label_milestones">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Meilensteine</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <widget class="QLabel" name="label_new_mile">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 85, 0);</string>
+               </property>
+               <property name="text">
+                <string>Neuer Meilenstein eingetragen...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0" colspan="3">
+              <widget class="QTableView" name="tableView_milestones">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(239, 239, 239);</string>
+               </property>
+               <property name="sortingEnabled">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QDateEdit" name="dateEdit_milestones">
+               <property name="dateTime">
+                <datetime>
+                 <hour>0</hour>
+                 <minute>0</minute>
+                 <second>0</second>
+                 <year>2021</year>
+                 <month>1</month>
+                 <day>1</day>
+                </datetime>
+               </property>
+               <property name="displayFormat">
+                <string>dd.MM.yyyy</string>
+               </property>
+               <property name="calendarPopup">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1" rowspan="3" colspan="2">
+              <widget class="QTextEdit" name="textEdit_milestones">
+               <property name="tabChangesFocus">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QPushButton" name="pushButton_new_milestones">
+               <property name="text">
+                <string>Neu</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QPushButton" name="pushButton_edit_milestones">
+               <property name="text">
+                <string>Editieren</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0" colspan="2">
+              <widget class="QLabel" name="label_project">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Projektfortschrittsberichte</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="2">
+              <widget class="QLabel" name="label_new_project">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(0, 85, 0);</string>
+               </property>
+               <property name="text">
+                <string>Neuer Projektfortschritt eingetragen...</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0" colspan="3">
+              <widget class="QTableView" name="tableView_project">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(239, 239, 239);</string>
+               </property>
+               <property name="sortingEnabled">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="0">
+              <widget class="QDateEdit" name="dateEdit_project">
+               <property name="dateTime">
+                <datetime>
+                 <hour>0</hour>
+                 <minute>0</minute>
+                 <second>0</second>
+                 <year>2021</year>
+                 <month>1</month>
+                 <day>1</day>
+                </datetime>
+               </property>
+               <property name="displayFormat">
+                <string>dd.MM.yyyy</string>
+               </property>
+               <property name="calendarPopup">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="1" rowspan="3" colspan="2">
+              <widget class="QTextEdit" name="textEdit_project">
+               <property name="tabChangesFocus">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="0">
+              <widget class="QPushButton" name="pushButton_project_new">
+               <property name="text">
+                <string>Neu</string>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="0">
+              <widget class="QPushButton" name="pushButton_project_edit">
+               <property name="text">
+                <string>Editieren</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tab_3">
+          <attribute name="title">
+           <string>Bewertung (ex ante)</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_10">
+           <item row="0" column="0">
+            <layout class="QGridLayout" name="gridLayout_8">
+             <item row="22" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_Bindung">
+               <property name="text">
+                <string>5</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0" colspan="2">
+              <widget class="QLabel" name="label_14">
+               <property name="text">
+                <string>Arbeitsplatzeffekte:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="0">
+              <widget class="QLabel" name="label_15">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0" colspan="2">
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>Datum der Bewertung</string>
+               </property>
+              </widget>
+             </item>
+             <item row="24" column="0" colspan="2">
+              <widget class="QLabel" name="label_26">
+               <property name="text">
+                <string>Notwendige Ressourcen</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="0" colspan="5">
+              <widget class="QSlider" name="horizontalSlider_Wertschoepfung">
+               <property name="maximum">
+                <number>10</number>
+               </property>
+               <property name="pageStep">
+                <number>2</number>
+               </property>
+               <property name="sliderPosition">
+                <number>5</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="tickInterval">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="14" column="0" colspan="2">
+              <widget class="QLabel" name="label_22">
+               <property name="text">
+                <string>Öffentlichkeitswirksamkeit:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="26" column="0">
+              <widget class="QLineEdit" name="lineEdit_res_personell"/>
+             </item>
+             <item row="12" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_Wertschoepfung">
+               <property name="text">
+                <string>5</string>
+               </property>
+              </widget>
+             </item>
+             <item row="28" column="0">
+              <widget class="QLineEdit" name="lineEdit_res_finanziell"/>
+             </item>
+             <item row="17" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_oeffi">
+               <property name="text">
+                <string>5</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0" colspan="2">
+              <widget class="QLabel" name="label_13">
+               <property name="text">
+                <string>Beitrag zu den Abteilungszielen</string>
+               </property>
+              </widget>
+             </item>
+             <item row="23" column="4">
+              <widget class="QLabel" name="label_29">
+               <property name="text">
+                <string>10</string>
+               </property>
+              </widget>
+             </item>
+             <item row="30" column="0">
+              <widget class="QTextEdit" name="textEdit_risiken">
+               <property name="tabChangesFocus">
+                <bool>true</bool>
+               </property>
+               <property name="html">
+                <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-    <widget class="QDateEdit" name="dateEdit_Bewertung">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>30</y>
-       <width>110</width>
-       <height>26</height>
-      </rect>
-     </property>
-     <property name="displayFormat">
-      <string>dd.MM.yyyy</string>
-     </property>
-     <property name="calendarPopup">
-      <bool>true</bool>
-     </property>
-     <property name="date">
-      <date>
-       <year>2020</year>
-       <month>1</month>
-       <day>1</day>
-      </date>
-     </property>
-    </widget>
-    <widget class="QTextEdit" name="textEdit_Bewertung">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>90</y>
-       <width>551</width>
-       <height>151</height>
-      </rect>
-     </property>
-     <property name="tabChangesFocus">
-      <bool>true</bool>
-     </property>
-     <property name="html">
-      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+               </property>
+              </widget>
+             </item>
+             <item row="29" column="0">
+              <widget class="QLabel" name="label_31">
+               <property name="text">
+                <string>Kritische Punkte und Risiken:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="0" colspan="3">
+              <widget class="QLabel" name="label_23">
+               <property name="text">
+                <string>Kundenbindungs- / Neukundeneffekte:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="16" column="0" colspan="5">
+              <widget class="QSlider" name="horizontalSlider_oeffi">
+               <property name="maximum">
+                <number>10</number>
+               </property>
+               <property name="pageStep">
+                <number>2</number>
+               </property>
+               <property name="sliderPosition">
+                <number>5</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="tickInterval">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="25" column="0">
+              <widget class="QLabel" name="label_27">
+               <property name="text">
+                <string>personell:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="4">
+              <widget class="QLabel" name="label_17">
+               <property name="text">
+                <string>10</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0" colspan="2">
+              <widget class="QTextEdit" name="textEdit_Bewertung">
+               <property name="tabChangesFocus">
+                <bool>true</bool>
+               </property>
+               <property name="html">
+                <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
@@ -1215,612 +735,569 @@ p, li { white-space: pre-wrap; }
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;-  Netzwerkarbeit &lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;-  Fördermittelakquisition &lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;-  Imageverbesserung des Wirtschaftsstandorts Bochum&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
+               </property>
+              </widget>
+             </item>
+             <item row="13" column="0">
+              <widget class="QLabel" name="label_20">
+               <property name="maximumSize">
+                <size>
+                 <width>50</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="27" column="0">
+              <widget class="QLabel" name="label_30">
+               <property name="text">
+                <string>finanziell:</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0" colspan="5">
+              <widget class="QSlider" name="horizontalSlider_AEffekt">
+               <property name="maximum">
+                <number>10</number>
+               </property>
+               <property name="pageStep">
+                <number>2</number>
+               </property>
+               <property name="sliderPosition">
+                <number>5</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="tickInterval">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="13" column="4">
+              <widget class="QLabel" name="label_21">
+               <property name="text">
+                <string>10</string>
+               </property>
+              </widget>
+             </item>
+             <item row="21" column="0" colspan="5">
+              <widget class="QSlider" name="horizontalSlider_Bindung">
+               <property name="maximum">
+                <number>10</number>
+               </property>
+               <property name="pageStep">
+                <number>2</number>
+               </property>
+               <property name="sliderPosition">
+                <number>5</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="tickInterval">
+                <number>0</number>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="0" colspan="2">
+              <widget class="QLabel" name="label_18">
+               <property name="text">
+                <string>Wertschöpfungseffekte:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="23" column="0">
+              <widget class="QLabel" name="label_25">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="4">
+              <widget class="QLabel" name="label_28">
+               <property name="text">
+                <string>10</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0" alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_AEffekt">
+               <property name="maximumSize">
+                <size>
+                 <width>500</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0" colspan="2">
+              <widget class="QDateEdit" name="dateEdit_Bewertung">
+               <property name="displayFormat">
+                <string>dd.MM.yyyy</string>
+               </property>
+               <property name="calendarPopup">
+                <bool>true</bool>
+               </property>
+               <property name="date">
+                <date>
+                 <year>2020</year>
+                 <month>1</month>
+                 <day>1</day>
+                </date>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="0">
+              <widget class="QLabel" name="label_24">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tab">
+          <attribute name="title">
+           <string>Projektabschluss</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_11">
+           <item row="0" column="0">
+            <layout class="QGridLayout" name="gridLayout_9">
+             <item row="24" column="0">
+              <widget class="QLineEdit" name="lineEdit_res_finanziell_ab">
+               <property name="maximumSize">
+                <size>
+                 <width>350</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="21" column="0">
+              <widget class="QLabel" name="label_59">
+               <property name="text">
+                <string>personell:</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="0" colspan="2">
+              <widget class="QLabel" name="label_62">
+               <property name="text">
+                <string>Öffenlichkeitswirksamkeit Einschätzung zu Beginn:</string>
+               </property>
+               <property name="wordWrap">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="23" column="0">
+              <widget class="QLabel" name="label_60">
+               <property name="text">
+                <string>finanziell:</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="0" colspan="5">
+              <widget class="QSlider" name="horizontalSlider_NEffekte_ab">
+               <property name="maximum">
+                <number>10</number>
+               </property>
+               <property name="pageStep">
+                <number>2</number>
+               </property>
+               <property name="sliderPosition">
+                <number>5</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="0">
+              <widget class="QLabel" name="label_72">
+               <property name="maximumSize">
+                <size>
+                 <width>50</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_AEffekte">
+               <property name="font">
+                <font>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>AEffekte_Beginn</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="0">
+              <widget class="QLabel" name="label_68">
+               <property name="maximumSize">
+                <size>
+                 <width>50</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="25" column="0">
+              <widget class="QLabel" name="label_77">
+               <property name="text">
+                <string>Lessons Learned</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_12">
+               <property name="text">
+                <string>Fazit</string>
+               </property>
+              </widget>
+             </item>
+             <item row="13" column="0">
+              <widget class="QLabel" name="label_OEffekte">
+               <property name="font">
+                <font>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>OEffekte_Beginn</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_10">
+               <property name="text">
+                <string>Datum Projektabschluss</string>
+               </property>
+              </widget>
+             </item>
+             <item row="16" column="0" colspan="2">
+              <widget class="QLabel" name="label_63">
+               <property name="text">
+                <string>Kundenbindung / Neukunden Einschätzung zu Beginn:</string>
+               </property>
+               <property name="wordWrap">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="0" colspan="2">
+              <widget class="QLabel" name="label_64">
+               <property name="text">
+                <string>Wertschöpfungseffekte / ausgelöste Investitionen Einschätzung zu Beginn:</string>
+               </property>
+               <property name="wordWrap">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="22" column="0">
+              <widget class="QLineEdit" name="lineEdit_res_personell_ab">
+               <property name="maximumSize">
+                <size>
+                 <width>350</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="0">
+              <widget class="QLabel" name="label_76">
+               <property name="maximumSize">
+                <size>
+                 <width>50</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="17" column="0">
+              <widget class="QLabel" name="label_NEffekte">
+               <property name="font">
+                <font>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>NEffekte_Beginn</string>
+               </property>
+              </widget>
+             </item>
+             <item row="14" column="0" colspan="5">
+              <widget class="QSlider" name="horizontalSlider_OEffekte_ab">
+               <property name="maximum">
+                <number>10</number>
+               </property>
+               <property name="pageStep">
+                <number>2</number>
+               </property>
+               <property name="sliderPosition">
+                <number>5</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0" colspan="2">
+              <widget class="QLabel" name="label_61">
+               <property name="text">
+                <string>Arbeitsplatzeffekte Einschätzung zu Beginn:</string>
+               </property>
+               <property name="wordWrap">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0">
+              <widget class="QLabel" name="label_65">
+               <property name="maximumSize">
+                <size>
+                 <width>50</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="20" column="0">
+              <widget class="QLabel" name="label_58">
+               <property name="text">
+                <string>Ressourceneinsatz</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="0">
+              <widget class="QLabel" name="label_WEffekte">
+               <property name="font">
+                <font>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>WEffekte_Beginn</string>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="2">
+              <widget class="QLabel" name="label_NEffekte_ab">
+               <property name="text">
+                <string>5</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0" colspan="5">
+              <widget class="QSlider" name="horizontalSlider_AEffekte_ab">
+               <property name="maximum">
+                <number>10</number>
+               </property>
+               <property name="pageStep">
+                <number>2</number>
+               </property>
+               <property name="sliderPosition">
+                <number>5</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="4">
+              <widget class="QLabel" name="label_66">
+               <property name="text">
+                <string>10</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="0" colspan="5">
+              <widget class="QSlider" name="horizontalSlider_WEffekte_ab">
+               <property name="maximum">
+                <number>10</number>
+               </property>
+               <property name="pageStep">
+                <number>2</number>
+               </property>
+               <property name="sliderPosition">
+                <number>5</number>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="4">
+              <widget class="QLabel" name="label_70">
+               <property name="text">
+                <string>10</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="4">
+              <widget class="QLabel" name="label_73">
+               <property name="text">
+                <string>10</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="4">
+              <widget class="QLabel" name="label_75">
+               <property name="text">
+                <string>10</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="2">
+              <widget class="QLabel" name="label_WEffekte_ab">
+               <property name="maximumSize">
+                <size>
+                 <width>500</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>5</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="2">
+              <widget class="QLabel" name="label_AEffekte_ab">
+               <property name="maximumSize">
+                <size>
+                 <width>500</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>5</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="2">
+              <widget class="QLabel" name="label_OEffekte_ab">
+               <property name="text">
+                <string>5</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0" colspan="5">
+              <widget class="QDateEdit" name="dateEdit_abschluss">
+               <property name="displayFormat">
+                <string>dd.MM.yyyy</string>
+               </property>
+               <property name="calendarPopup">
+                <bool>true</bool>
+               </property>
+               <property name="date">
+                <date>
+                 <year>2020</year>
+                 <month>1</month>
+                 <day>1</day>
+                </date>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0" colspan="5">
+              <widget class="QTextEdit" name="textEdit_fazit_ab">
+               <property name="tabChangesFocus">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="26" column="0" colspan="5">
+              <widget class="QTextEdit" name="textEdit_llearned">
+               <property name="maximumSize">
+                <size>
+                 <width>15000</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="tabChangesFocus">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="Line" name="line">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
     </widget>
-   </widget>
-   <widget class="QWidget" name="tab">
-    <attribute name="title">
-     <string>Projektabschluss</string>
-    </attribute>
-    <widget class="QDateEdit" name="dateEdit_abschluss">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>30</y>
-       <width>110</width>
-       <height>26</height>
-      </rect>
-     </property>
-     <property name="displayFormat">
-      <string>dd.MM.yyyy</string>
-     </property>
-     <property name="calendarPopup">
-      <bool>true</bool>
-     </property>
-     <property name="date">
-      <date>
-       <year>2020</year>
-       <month>1</month>
-       <day>1</day>
-      </date>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_10">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>10</y>
-       <width>161</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Datum Projektabschluss</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_12">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>70</y>
-       <width>161</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Fazit</string>
-     </property>
-    </widget>
-    <widget class="QTextEdit" name="textEdit_fazit_ab">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>90</y>
-       <width>551</width>
-       <height>151</height>
-      </rect>
-     </property>
-     <property name="tabChangesFocus">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_58">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>610</y>
-       <width>121</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Ressourceneinsatz</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_59">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>630</y>
-       <width>121</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>personell:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_60">
-     <property name="geometry">
-      <rect>
-       <x>140</x>
-       <y>630</y>
-       <width>121</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>finanziell:</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_res_personell_ab">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>650</y>
-       <width>113</width>
-       <height>25</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_res_finanziell_ab">
-     <property name="geometry">
-      <rect>
-       <x>140</x>
-       <y>650</y>
-       <width>113</width>
-       <height>25</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_61">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>250</y>
-       <width>141</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Arbeitsplatzeffekte Einschätzung zu Beginn:</string>
-     </property>
-     <property name="wordWrap">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_AEffekte">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>270</y>
-       <width>101</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>AEffekte_Beginn</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_WEffekte">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>360</y>
-       <width>101</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>WEffekte_Beginn</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_64">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>340</y>
-       <width>281</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Wertschöpfungseffekte / ausgelöste Investitionen Einschätzung zu Beginn:</string>
-     </property>
-     <property name="wordWrap">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QSlider" name="horizontalSlider_AEffekte_ab">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>290</y>
-       <width>551</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="maximum">
-      <number>10</number>
-     </property>
-     <property name="pageStep">
-      <number>2</number>
-     </property>
-     <property name="sliderPosition">
-      <number>5</number>
-     </property>
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_65">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>310</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_66">
-     <property name="geometry">
-      <rect>
-       <x>550</x>
-       <y>310</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>10</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_AEffekte_ab">
-     <property name="geometry">
-      <rect>
-       <x>280</x>
-       <y>310</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>5</string>
-     </property>
-    </widget>
-    <widget class="QSlider" name="horizontalSlider_WEffekte_ab">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>380</y>
-       <width>551</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="maximum">
-      <number>10</number>
-     </property>
-     <property name="pageStep">
-      <number>2</number>
-     </property>
-     <property name="sliderPosition">
-      <number>5</number>
-     </property>
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_68">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>400</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_WEffekte_ab">
-     <property name="geometry">
-      <rect>
-       <x>280</x>
-       <y>400</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>5</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_70">
-     <property name="geometry">
-      <rect>
-       <x>550</x>
-       <y>400</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>10</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_62">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>430</y>
-       <width>151</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Öffenlichkeitswirksamkeit Einschätzung zu Beginn:</string>
-     </property>
-     <property name="wordWrap">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_OEffekte">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>450</y>
-       <width>101</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>OEffekte_Beginn</string>
-     </property>
-    </widget>
-    <widget class="QSlider" name="horizontalSlider_OEffekte_ab">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>470</y>
-       <width>551</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="maximum">
-      <number>10</number>
-     </property>
-     <property name="pageStep">
-      <number>2</number>
-     </property>
-     <property name="sliderPosition">
-      <number>5</number>
-     </property>
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_OEffekte_ab">
-     <property name="geometry">
-      <rect>
-       <x>280</x>
-       <y>490</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>5</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_72">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>490</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_73">
-     <property name="geometry">
-      <rect>
-       <x>550</x>
-       <y>490</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>10</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_NEffekte_ab">
-     <property name="geometry">
-      <rect>
-       <x>280</x>
-       <y>580</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>5</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_75">
-     <property name="geometry">
-      <rect>
-       <x>550</x>
-       <y>580</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>10</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_76">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>580</y>
-       <width>16</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-    </widget>
-    <widget class="QSlider" name="horizontalSlider_NEffekte_ab">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>560</y>
-       <width>551</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="maximum">
-      <number>10</number>
-     </property>
-     <property name="pageStep">
-      <number>2</number>
-     </property>
-     <property name="sliderPosition">
-      <number>5</number>
-     </property>
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_NEffekte">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>540</y>
-       <width>101</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>NEffekte_Beginn</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_63">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>520</y>
-       <width>171</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Kundenbindung / Neukunden Einschätzung zu Beginn:</string>
-     </property>
-     <property name="wordWrap">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_77">
-     <property name="geometry">
-      <rect>
-       <x>280</x>
-       <y>610</y>
-       <width>171</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Lessons Learned</string>
-     </property>
-    </widget>
-    <widget class="QTextEdit" name="textEdit_llearned">
-     <property name="geometry">
-      <rect>
-       <x>280</x>
-       <y>630</y>
-       <width>281</width>
-       <height>61</height>
-      </rect>
-     </property>
-     <property name="tabChangesFocus">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </widget>
-  </widget>
-  <widget class="QPushButton" name="pushButton_saveall">
-   <property name="geometry">
-    <rect>
-     <x>490</x>
-     <y>800</y>
-     <width>80</width>
-     <height>25</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Speichern</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_saved">
-   <property name="enabled">
-    <bool>true</bool>
-   </property>
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>790</y>
-     <width>211</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(0, 85, 0);</string>
-   </property>
-   <property name="text">
-    <string>Das Projekt wird gespeichert...</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_error">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>810</y>
-     <width>401</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(170, 0, 0);</string>
-   </property>
-   <property name="text">
-    <string>Alle Felder der Projektbeschreibung müssen ausgefüllt sein...</string>
-   </property>
-  </widget>
-  <zorder>tabWidget</zorder>
-  <zorder>label</zorder>
-  <zorder>line</zorder>
-  <zorder>pushButton_saveall</zorder>
-  <zorder>label_saved</zorder>
-  <zorder>label_error</zorder>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>

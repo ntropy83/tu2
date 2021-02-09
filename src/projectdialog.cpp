@@ -161,9 +161,6 @@ void projectDialog::setEditText(QString index){
     ui->lineEdit_res_personell_ab->setText(line_data.at(28));
     ui->lineEdit_res_finanziell_ab->setText(line_data.at(29));
     ui->textEdit_llearned->setText(line_data.at(30));
-
-
-
 }
 
 void projectDialog::on_pushButton_saveall_clicked()
@@ -210,16 +207,13 @@ void projectDialog::on_pushButton_saveall_clicked()
                             ui->textEdit_fazit_ab->toPlainText(), ui->label_AEffekte_ab->text(), ui->label_WEffekte_ab->text(), ui->label_OEffekte_ab->text(), ui->label_NEffekte_ab->text(),
                             ui->lineEdit_res_personell_ab->text(), ui->lineEdit_res_finanziell_ab->text(), ui->textEdit_llearned->toPlainText());
             ui->label_saved->setVisible(true);
-            QTimer::singleShot(5000, ui->label_saved, &QLabel::hide);
+            QTimer::singleShot(3000, ui->label_saved, &QLabel::hide);
             ui->pushButton_saveall->setVisible(false);
             QTimer::singleShot(500, this, &QDialog::close);
-            qDebug() << "Alle Felder wurden ausgefüllt...";
             emit refresh_mainWindow();
-
     }else{
             ui->label_error->setVisible(true);
             QTimer::singleShot(5000, ui->label_error, &QLabel::hide);
-            qDebug() << "Nicht alle Felder wurden ausgefüllt...";
     }
 }
 

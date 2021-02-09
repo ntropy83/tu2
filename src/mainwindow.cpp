@@ -15,8 +15,6 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    if(app_dir != "") ui->label_linux->setEnabled(true);
-
     // Initiale Erstellung der Projekte.lib sowie Auslesen der DB
     // Initialisierung der tableView's
 
@@ -134,8 +132,8 @@ void MainWindow::on_tableView_2_doubleClicked()
 void MainWindow::on_actionVersion_triggered()
 {
     QMessageBox msgBox;
-    msgBox.setText("Projektverwaltung v1.1.1<br><br>by <a href=\"https://github.com/enthalpie/TUII\">tu2_ntropy</a><br><br><br>Licensed under "
-                   "<a href=\"https://github.com/enthalpie/TUII/blob/master/LICENSE\">GPL-3.0</a>");
+    msgBox.setText("Projektverwaltung v1.2.0_win32<br>by <a href=\"https://github.com/ntropy83/tu2\">tu2_ntropy</a><br>Licensed under "
+                   "<a href=\"https://github.com/ntropy83/tu2/blob/master/LICENSE\">GPL-3.0</a>");
     msgBox.exec();
 }
 

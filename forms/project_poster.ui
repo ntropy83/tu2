@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1501</width>
-    <height>821</height>
+    <width>1920</width>
+    <height>1080</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -24,8 +24,8 @@
   </property>
   <property name="maximumSize">
    <size>
-    <width>1501</width>
-    <height>821</height>
+    <width>3840</width>
+    <height>2160</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -48,8 +48,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>1467</width>
-        <height>821</height>
+        <width>1900</width>
+        <height>1060</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
@@ -174,7 +174,7 @@ color: green;</string>
           <bool>true</bool>
          </property>
          <property name="currentIndex">
-          <number>2</number>
+          <number>0</number>
          </property>
          <widget class="QWidget" name="tab">
           <attribute name="title">
