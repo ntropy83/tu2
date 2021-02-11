@@ -1,23 +1,16 @@
-![QMake Build Windows/Linux](https://github.com/ntropy83/tu2/workflows/QMake%20Build%20Windows/Linux/badge.svg)
-[![Language Grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/vim/vim.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ntropy83/TUII/context:cpp)
-
 # TUII
 PMS - Project Management System
 
 ![MainWindow](https://github.com/ntropy83/tu2/blob/master/img/MainWindow.png)
 
-## version 1.1.0
+## version 1.3.0
 - create and modify projects
 - list them with infos
 - add milestones and project advancements
 - create a project evaluation
 
-# Planned features
-- English translation
-- Kanban functionality
-
 # Libraries and Dependencies
-Created with QtCreator 4.11 / Qt 5.14 (Gcc 9.2.0, 64bit)
+Created with QtCreator 4.14 / Qt 5.15 (Gcc 9.2.0, 64bit)
 
 Needs package:
 
@@ -39,9 +32,8 @@ make && make clean
 The executable will go to the newly created build directory 
 
 # Cross Compile
-can be cross compiled as 32bit program to Windows with mxe for Qt
+can be cross compiled as a standalone 32bit exe to Windows with mxe for Qt
 (https://github.com/mxe/mxe)<br>
-The 32bit cross-compiled windows version is in the release of the repo
 
 ```
 export PATH=<mxe root>/usr/bin:$PATH
