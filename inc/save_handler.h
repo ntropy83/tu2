@@ -7,8 +7,6 @@
 #include <QTextStream>
 #include <QDateTime>
 
-#include <QDebug>
-
 class saveHandler
 {
 

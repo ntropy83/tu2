@@ -122,7 +122,7 @@ void projectDialog::setEditText(QString index){
     ui->textEdit_ptext->setText(line_data.at(12));
 
     if(line_data.at(13) == "unbewertet"){
-        QDate Date_Bewertung = QDate::fromString("01.01.2020","dd.MM.yyyy");
+        QDate Date_Bewertung = QDate::fromString(global_start_time,"dd.MM.yyyy");
         ui->dateEdit_Bewertung->setDate(Date_Bewertung);
     }else{
         QDate Date_Bewertung = QDate::fromString(line_data.at(13),"dd.MM.yyyy");
@@ -216,8 +216,8 @@ void projectDialog::on_pushButton_saveall_clicked()
 
 void projectDialog::on_pushButton_new_milestones_clicked()
 {
-    QDate Date = QDate::fromString("01.01.2020","dd.MM.yyyy");
-    if(ui->dateEdit_milestones->text() != "01.01.2020" && ui->textEdit_milestones->toPlainText() != ""){
+    QDate Date = QDate::fromString(global_start_time,"dd.MM.yyyy");
+    if(ui->dateEdit_milestones->text() != global_start_time && ui->textEdit_milestones->toPlainText() != ""){
 
         create_mp(ui->dateEdit_milestones->text(), ui->textEdit_milestones->toPlainText(), "_m");
         ui->dateEdit_milestones->setDate(Date);
@@ -236,8 +236,8 @@ void projectDialog::on_pushButton_new_milestones_clicked()
 
 void projectDialog::on_pushButton_project_new_clicked()
 {
-    QDate Date = QDate::fromString("01.01.2020","dd.MM.yyyy");
-    if(ui->dateEdit_project->text() != "01.01.2020" && ui->textEdit_project->toPlainText() != ""){
+    QDate Date = QDate::fromString(global_start_time,"dd.MM.yyyy");
+    if(ui->dateEdit_project->text() != global_start_time && ui->textEdit_project->toPlainText() != ""){
 
         create_mp(ui->dateEdit_project->text(), ui->textEdit_project->toPlainText(), "_p");
         ui->dateEdit_project->setDate(Date);
@@ -280,7 +280,7 @@ void projectDialog::on_pushButton_edit_milestones_clicked()
         ui->pushButton_new_milestones->setEnabled(true);
         ui->pushButton_edit_milestones->setText("Editieren");
 
-        QDate milestone_date = QDate::fromString("01.01.2020","dd.MM.yyyy");
+        QDate milestone_date = QDate::fromString(global_start_time,"dd.MM.yyyy");
         ui->dateEdit_milestones->setDate(milestone_date);
         ui->textEdit_milestones->setText("");
         ui->tableView_milestones->setModel(readout_mp("_m"));
@@ -313,7 +313,7 @@ void projectDialog::on_pushButton_project_edit_clicked()
         ui->pushButton_project_new->setEnabled(true);
         ui->pushButton_project_edit->setText("Editieren");
 
-        QDate project_date = QDate::fromString("01.01.2020","dd.MM.yyyy");
+        QDate project_date = QDate::fromString(global_start_time,"dd.MM.yyyy");
         ui->dateEdit_project->setDate(project_date);
         ui->textEdit_project->setText("");
         ui->tableView_project->setModel(readout_mp("_p"));

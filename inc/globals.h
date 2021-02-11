@@ -24,5 +24,6 @@ QString global_edit;
 // Tage die vergangen sein müssen, bis zur Update Warnung
 int yellow_warn = 14;
 int red_warn = 31;
+QString global_start_time="01.01.2021";
 
 #endif // GLOBALS_H

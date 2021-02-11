@@ -43,7 +43,7 @@ void project_poster::setprojectText(QString index){
    ui->graphicsView->setEnabled(false);
    ui->graphicsView_3->setEnabled(false);
 
-   if(line_data.at(13) == "01.01.2020"){
+   if(line_data.at(13) == global_start_time){
        ui->label_bewertung->setText("<b>unbewertet</b>");
    }else{
        ui->label_bewertung->setText("Datum der Bewertung: " + line_data.at(13));
@@ -59,7 +59,7 @@ void project_poster::setprojectText(QString index){
    ui->lineEdit_res_finanz->setText(line_data.at(20));
    ui->textEdit_kp->setText(line_data.at(21));
 
-   if(line_data.at(22) == "01.01.2020"){
+   if(line_data.at(22) == global_start_time){
        ui->label_bewertung_ab->setText("<b>unbewertet</b>");
    }else{
        ui->label_bewertung_ab->setText("Datum der Bewertung: " + line_data.at(22));

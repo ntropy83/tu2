@@ -13,7 +13,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     ui->tableView->setModel(readout("active"));
     ui->tableView->setColumnWidth(0,2);
-    ui->tableView->setColumnWidth(1,250);
+    ui->tableView->setColumnWidth(1,450);
     ui->tableView->setColumnWidth(7,200);
     ui->tableView->verticalHeader()->setVisible(false);
     ui->tableView->horizontalHeader()->setStretchLastSection(true);
@@ -22,7 +22,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->tableView_2->setModel(readout("ended"));
     ui->tableView_2->horizontalHeader()->setStretchLastSection(true);
     ui->tableView_2->setColumnWidth(0,2);
-    ui->tableView_2->setColumnWidth(1,250);
+    ui->tableView_2->setColumnWidth(1,450);
     ui->tableView_2->setColumnWidth(7,200);
     ui->tableView_2->verticalHeader()->setVisible(false);
     ui->tableView_2->horizontalHeader()->setStretchLastSection(true);
@@ -125,7 +125,7 @@ void MainWindow::on_tableView_2_doubleClicked()
 void MainWindow::on_actionVersion_triggered()
 {
     QMessageBox msgBox;
-    msgBox.setText("Projektverwaltung v1.2.0_win32<br>by <a href=\"https://github.com/ntropy83/tu2\">tu2_ntropy</a><br>Licensed under "
+    msgBox.setText("Projektverwaltung v1.3.0_win32<br>by <a href=\"https://github.com/ntropy83/tu2\">tu2_ntropy</a><br>Licensed under "
                    "<a href=\"https://github.com/ntropy83/tu2/blob/master/LICENSE\">GPL-3.0</a>");
     msgBox.exec();
 }

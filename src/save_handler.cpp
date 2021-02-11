@@ -24,7 +24,7 @@ if(action=="read"){
         QByteArray line = file.readLine();
         process_line.append(line);
     }
-    qDebug() << "reading worked";
+
     file.close();
 
 }else if(action=="write"){
@@ -123,7 +123,7 @@ QStandardItemModel* readout(QString tab){
                   QString line =  file.readLine();
                   QStringList line_data=line.split(" /// ", Qt::SkipEmptyParts, Qt::CaseInsensitive);
 
-                  if(line_data.at(6) == "01.01.2020"){ line_data[6] = "-"; }
+                  if(line_data.at(6) == global_start_time){ line_data[6] = "-"; }
 
                   if(line_data.at(3) == "beendet")
                      prj_end=true;
@@ -424,5 +424,4 @@ void create_entry_lib(QString title, QString MA, QString status, QString start, 
      if (global_edit == "nein" || global_edit == ""){ counter("write"); }
      file.close();
      global_edit = "nein";
-     qDebug() << "File written";
 }
