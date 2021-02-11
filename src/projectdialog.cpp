@@ -1,11 +1,8 @@
-#include "../inc/save_handler.hpp"
-#include "../inc/projectdialog.hpp"
+#include "../inc/projectdialog.h"
 #include "ui_projectdialog.h"
+#include "src/project_poster.cpp"
 
 #include <QTimer>
-#include <QTextStream>
-#include <QFile>
-#include <QDebug>
 #include <QMessageBox>
 
 projectDialog::projectDialog(QWidget *parent) :

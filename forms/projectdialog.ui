@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1080</width>
-    <height>1080</height>
+    <width>450</width>
+    <height>450</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>835</width>
-    <height>835</height>
+    <width>450</width>
+    <height>450</height>
    </size>
   </property>
   <property name="maximumSize">
@@ -28,6 +28,9 @@
   <layout class="QGridLayout" name="gridLayout">
    <item row="1" column="0">
     <widget class="QScrollArea" name="scrollArea">
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustToContentsOnFirstShow</enum>
+     </property>
      <property name="widgetResizable">
       <bool>true</bool>
      </property>
@@ -36,8 +39,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>1060</width>
-        <height>1060</height>
+        <width>501</width>
+        <height>924</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout_2">

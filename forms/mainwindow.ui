@@ -3,7 +3,7 @@
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
   <property name="windowModality">
-   <enum>Qt::ApplicationModal</enum>
+   <enum>Qt::NonModal</enum>
   </property>
   <property name="geometry">
    <rect>
@@ -50,6 +50,9 @@
    <layout class="QGridLayout" name="gridLayout_4">
     <item row="0" column="0">
      <widget class="QScrollArea" name="scrollArea">
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustIgnored</enum>
+      </property>
       <property name="widgetResizable">
        <bool>true</bool>
       </property>

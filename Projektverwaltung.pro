@@ -19,14 +19,15 @@ SOURCES += \
     src/main.cpp \
     src/mainwindow.cpp \
     src/project_poster.cpp \
-    src/projectdialog.cpp
+    src/projectdialog.cpp \
+    src/save_handler.cpp
 
 HEADERS += \
-    inc/globals.hpp \
-    inc/mainwindow.hpp \
-    inc/project_poster.hpp \
-    inc/projectdialog.hpp \
-    inc/save_handler.hpp
+    inc/globals.h \
+    inc/mainwindow.h \
+    inc/project_poster.h \
+    inc/projectdialog.h \
+    inc/save_handler.h
 
 FORMS += \
     forms/mainwindow.ui \

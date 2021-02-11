@@ -23,29 +23,17 @@ signals:
 
 private slots:
     void on_pushButton_saveall_clicked();
-
     void on_pushButton_new_milestones_clicked();
-
     void on_pushButton_project_new_clicked();
-
     void on_pushButton_edit_milestones_clicked();
-
     void on_pushButton_project_edit_clicked();
-
     void on_horizontalSlider_AEffekt_valueChanged(int position);
-
     void on_horizontalSlider_Wertschoepfung_valueChanged(int position);
-
     void on_horizontalSlider_oeffi_valueChanged(int position);
-
     void on_horizontalSlider_Bindung_valueChanged(int position);
-
     void on_horizontalSlider_AEffekte_ab_valueChanged(int value);
-
     void on_horizontalSlider_WEffekte_ab_valueChanged(int value);
-
     void on_horizontalSlider_OEffekte_ab_valueChanged(int value);
-
     void on_horizontalSlider_NEffekte_ab_valueChanged(int value);
 
 private:

@@ -1,8 +1,6 @@
-#include "../inc/project_poster.hpp"
+#include "../inc/project_poster.h"
 #include "ui_project_poster.h"
-#include "../inc/save_handler.hpp"
-
-QString global_edit;
+#include "src/save_handler.cpp"
 
 project_poster::project_poster(QWidget *parent) :
     QDialog(parent),

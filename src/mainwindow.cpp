@@ -1,13 +1,6 @@
-#include "../inc/save_handler.hpp"
-#include "../inc/mainwindow.hpp"
-#include "../inc/projectdialog.hpp"
-#include "../inc/project_poster.hpp"
 #include "ui_mainwindow.h"
-
-#include <QFile>
-#include <QDebug>
-#include <QMessageBox>
-
+#include "inc/mainwindow.h"
+#include "src/projectdialog.cpp"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
