@@ -56,7 +56,7 @@ void projectDialog::enable_milestone_buttons(bool setting){
     ui->label_milestones->setEnabled(setting);
     ui->tableView_milestones->setEnabled(setting);
     ui->dateEdit_milestones->setEnabled(setting);
-    ui->pushButton_new_milestones->setEnabled(setting);
+    //ui->pushButton_new_milestones->setEnabled(setting);
     ui->pushButton_edit_milestones->setEnabled(setting);
     ui->textEdit_milestones->setEnabled(setting);
 
@@ -70,7 +70,7 @@ void projectDialog::enable_milestone_buttons(bool setting){
     ui->label_project->setEnabled(setting);
     ui->tableView_project->setEnabled(setting);
     ui->dateEdit_project->setEnabled(setting);
-    ui->pushButton_project_new->setEnabled(setting);
+    //ui->pushButton_project_new->setEnabled(setting);
     ui->pushButton_project_edit->setEnabled(setting);
     ui->textEdit_project->setEnabled(setting);
 
@@ -366,4 +366,14 @@ void projectDialog::on_horizontalSlider_NEffekte_ab_valueChanged(int value)
 {
     QString pos = QVariant(value).toString();
     ui->label_NEffekte_ab->setText(pos);
+}
+
+void projectDialog::on_textEdit_milestones_textChanged()
+{
+    ui->pushButton_new_milestones->setEnabled(true);
+}
+
+void projectDialog::on_textEdit_project_textChanged()
+{
+    ui->pushButton_project_new->setEnabled(true);
 }

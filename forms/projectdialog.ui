@@ -22,6 +22,12 @@
     <height>2160</height>
    </size>
   </property>
+  <property name="baseSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Projekt erstellen</string>
   </property>
@@ -38,7 +44,7 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
+        <y>-342</y>
         <width>501</width>
         <height>924</height>
        </rect>
@@ -462,8 +468,11 @@ p, li { white-space: pre-wrap; }
              </item>
              <item row="4" column="0">
               <widget class="QPushButton" name="pushButton_new_milestones">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
                <property name="text">
-                <string>Neu</string>
+                <string>Neu Speichern</string>
                </property>
               </widget>
              </item>
@@ -542,8 +551,11 @@ p, li { white-space: pre-wrap; }
              </item>
              <item row="9" column="0">
               <widget class="QPushButton" name="pushButton_project_new">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
                <property name="text">
-                <string>Neu</string>
+                <string>Neu Speichern</string>
                </property>
               </widget>
              </item>

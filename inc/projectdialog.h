@@ -36,6 +36,10 @@ private slots:
     void on_horizontalSlider_OEffekte_ab_valueChanged(int value);
     void on_horizontalSlider_NEffekte_ab_valueChanged(int value);
 
+    void on_textEdit_milestones_textChanged();
+
+    void on_textEdit_project_textChanged();
+
 private:
     Ui::projectDialog *ui;
 };

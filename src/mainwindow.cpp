@@ -125,7 +125,7 @@ void MainWindow::on_tableView_2_doubleClicked()
 void MainWindow::on_actionVersion_triggered()
 {
     QMessageBox msgBox;
-    msgBox.setText("Projektverwaltung v1.3.0_win32<br>by <a href=\"https://github.com/ntropy83/tu2\">tu2_ntropy</a><br>Licensed under "
+    msgBox.setText("Projektverwaltung v1.3.1_win32<br>by <a href=\"https://github.com/ntropy83/tu2\">tu2_ntropy</a><br>Licensed under "
                    "<a href=\"https://github.com/ntropy83/tu2/blob/master/LICENSE\">GPL-3.0</a>");
     msgBox.exec();
 }
